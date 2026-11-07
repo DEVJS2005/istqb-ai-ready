@@ -1,0 +1,139 @@
+{
+  "fonte": "ISTQB Certified Tester Foundation Level Syllabus v4.0.1",
+  "link_oficial": "https://istqb.org/certifications/certified-tester-foundation-level-ctfl-v4-0/",
+  "aviso": "Metadados de referência. O texto do syllabus não é reproduzido; consulte o PDF oficial.",
+  "por_capitulo": {
+    "1": {
+      "total": 30,
+      "keywords": [
+        "coverage",
+        "debugging",
+        "defect",
+        "error",
+        "failure",
+        "quality",
+        "quality assurance",
+        "root cause",
+        "test analysis",
+        "test basis",
+        "test case",
+        "test completion",
+        "test condition",
+        "test control",
+        "test data",
+        "test design",
+        "test execution",
+        "test implementation",
+        "test monitoring",
+        "test object",
+        "test objective",
+        "test planning",
+        "test procedure",
+        "test process",
+        "test result",
+        "testing",
+        "testware",
+        "traceability",
+        "validation",
+        "verification"
+      ]
+    },
+    "2": {
+      "total": 17,
+      "keywords": [
+        "acceptance testing",
+        "black-box testing",
+        "component integration testing",
+        "component testing",
+        "confirmation testing",
+        "functional testing",
+        "integration testing",
+        "maintenance testing",
+        "non-functional testing",
+        "regression testing",
+        "shift left",
+        "system integration testing",
+        "system testing",
+        "test level",
+        "test object",
+        "test type",
+        "white-box testing"
+      ]
+    },
+    "3": {
+      "total": 10,
+      "keywords": [
+        "anomaly",
+        "dynamic testing",
+        "formal review",
+        "informal review",
+        "inspection",
+        "review",
+        "static analysis",
+        "static testing",
+        "technical review",
+        "walkthrough"
+      ]
+    },
+    "4": {
+      "total": 18,
+      "keywords": [
+        "acceptance criteria",
+        "acceptance test-driven development",
+        "black-box test technique",
+        "boundary value analysis",
+        "branch coverage",
+        "checklist-based testing",
+        "collaboration-based test approach",
+        "coverage",
+        "coverage item",
+        "decision table testing",
+        "equivalence partitioning",
+        "error guessing",
+        "experience-based test technique",
+        "exploratory testing",
+        "state transition testing",
+        "statement coverage",
+        "test technique",
+        "white-box test technique"
+      ]
+    },
+    "5": {
+      "total": 26,
+      "keywords": [
+        "defect management",
+        "defect report",
+        "entry criteria",
+        "exit criteria",
+        "product risk",
+        "project risk",
+        "risk",
+        "risk analysis",
+        "risk assessment",
+        "risk control",
+        "risk identification",
+        "risk level",
+        "risk management",
+        "risk mitigation",
+        "risk monitoring",
+        "risk-based testing",
+        "test approach",
+        "test completion report",
+        "test control",
+        "test monitoring",
+        "test plan",
+        "test planning",
+        "test progress report",
+        "test pyramid",
+        "test strategy",
+        "testing quadrants"
+      ]
+    },
+    "6": {
+      "total": 1,
+      "keywords": [
+        "test automation"
+      ]
+    }
+  }
+}

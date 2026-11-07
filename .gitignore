@@ -1,0 +1,10 @@
+# PDF original do syllabus: NUNCA commitar
+fonte/*.pdf
+# Saidas intermediarias
+build/
+# Python
+.venv/
+__pycache__/
+*.pyc
+# Texto integral do syllabus gerado localmente a partir do PDF (direitos do ISTQB)
+syllabus-texto/

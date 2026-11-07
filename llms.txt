@@ -1,0 +1,141 @@
+# istqb-ai-ready
+
+> Base de conhecimento de QA estruturada para IAs a partir do ISTQB® CTFL Syllabus v4.0.1.
+> Cada seção do syllabus tem um arquivo com frontmatter, resumo nosso e página do PDF original; o texto integral só existe localmente em syllabus-texto/.
+
+Leia primeiro CLAUDE.md (regras de uso). Cite sempre a seção usada, ex.: "conforme syllabus 4.2.1".
+Em syllabus/ estão as cascas (resumo nosso). Se existir syllabus-texto/<mesmo caminho>, ele tem o texto oficial da seção.
+
+## Regras e aviso
+
+- [CLAUDE.md](CLAUDE.md): como uma IA deve consultar e citar esta base
+- [AVISO-LEGAL.md](AVISO-LEGAL.md): atribuição ao ISTQB® e condições de uso
+- [README.md](README.md): o que é, como regenerar a partir do PDF, como usar em outros projetos
+
+## Guias práticos (interpretação nossa, não é syllabus)
+
+- [guias/checklist-planejamento.md](guias/checklist-planejamento.md): Checklist de planejamento de teste (baseado em 1.4.1, 1.4.2, 2.1.5, 2.2.1, 2.2.2, 5.1.1, 5.1.2, 5.1.3, 5.1.4, 5.1.5, 5.1.6, 5.1.7, 5.2.2, 5.2.3, 5.2.4, 5.3.1, 5.3.2, 5.4, 5.5)
+- [guias/tecnicas-caixa-preta.md](guias/tecnicas-caixa-preta.md): Técnicas caixa-preta na prática (baseado em 4.1, 4.2, 4.2.1, 4.2.2, 4.2.3, 4.2.4, 4.4.1, 4.5.2, 5.1.5)
+- [guias/template-plano-de-teste.md](guias/template-plano-de-teste.md): Template de plano de teste (baseado em 5.1.1, 5.1.3, 5.1.4, 5.2, 5.3.2, 5.5, 2.2.1, 2.2.2)
+
+## Dados
+
+- [dados/objetivos.json](dados/objetivos.json): os 64 objetivos de aprendizagem (código, nível K, seção, arquivo)
+- [dados/keywords.json](dados/keywords.json): keywords de cada capítulo
+- [dados/glossario.json](dados/glossario.json): termos do syllabus com seções e páginas; definição no glossário oficial do ISTQB
+- [dados/resumos.yaml](dados/resumos.yaml): resumos nossos de cada seção (fonte das cascas)
+
+## Syllabus (cascas)
+
+### Introdução
+
+- [0 Introduction](syllabus/00-introducao.md): Para que serve o syllabus, quem é o público, níveis K, exame e organização dos capítulos.
+
+### Capítulo 1: Fundamentals of Testing
+
+- [1 Fundamentals of Testing](syllabus/01-fundamentals-of-testing/_index.md): Fundamentos: o que é teste, por que testar, os 7 princípios, processo, testware, papéis e habilidades.
+- [1.1 What is Testing?](syllabus/01-fundamentals-of-testing/1.1-what-is-testing.md): Teste como conjunto de atividades para achar defeitos e avaliar qualidade, com verificação e validação.
+  - [1.1.1 Test Objectives](syllabus/01-fundamentals-of-testing/1.1.1-test-objectives.md) [K1]: Objetivos típicos de teste e como o contexto os altera.
+  - [1.1.2 Testing and Debugging](syllabus/01-fundamentals-of-testing/1.1.2-testing-and-debugging.md) [K2]: Teste e depuração são atividades distintas.
+- [1.2 Why is Testing Necessary?](syllabus/01-fundamentals-of-testing/1.2-why-is-testing-necessary.md): Teste como controle da qualidade, que pode ser praticado por qualquer stakeholder.
+  - [1.2.1 Testing’s Contributions to Success](syllabus/01-fundamentals-of-testing/1.2.1-testings-contributions-to-success.md) [K2]: Como o teste contribui para o sucesso do projeto.
+  - [1.2.2 Testing and Quality Assurance (QA)](syllabus/01-fundamentals-of-testing/1.2.2-testing-and-quality-assurance-qa.md) [K1]: Diferença entre teste (controle, produto) e QA (garantia, processo).
+  - [1.2.3 Errors, Defects, Failures, and Root Causes](syllabus/01-fundamentals-of-testing/1.2.3-errors-defects-failures-and-root-causes.md) [K2]: Cadeia erro → defeito → falha e o conceito de causa raiz.
+- [1.3 Testing Principles](syllabus/01-fundamentals-of-testing/1.3-testing-principles.md) [K2]: Os sete princípios de teste.
+- [1.4 Test Activities, Testware and Test Roles](syllabus/01-fundamentals-of-testing/1.4-test-activities-testware-and-test-roles.md): O processo de teste: atividades, testware e papéis, adaptados ao contexto.
+  - [1.4.1 Test Activities and Tasks](syllabus/01-fundamentals-of-testing/1.4.1-test-activities-and-tasks.md) [K2]: As sete atividades do processo de teste, do planejamento à conclusão.
+  - [1.4.2 Test Process in Context](syllabus/01-fundamentals-of-testing/1.4.2-test-process-in-context.md) [K2]: Fatores de contexto que moldam o processo de teste.
+  - [1.4.3 Testware](syllabus/01-fundamentals-of-testing/1.4.3-testware.md) [K2]: Produtos de trabalho (testware) gerados em cada atividade de teste.
+  - [1.4.4 Traceability between the Test Basis and Testware](syllabus/01-fundamentals-of-testing/1.4.4-traceability-between-the-test-basis-and-testware.md) [K2]: Rastreabilidade entre base de teste, testware, resultados e defeitos.
+  - [1.4.5 Roles in Testing](syllabus/01-fundamentals-of-testing/1.4.5-roles-in-testing.md) [K2]: Os dois papéis principais: gestão de teste e teste.
+- [1.5 Essential Skills and Good Practices in Testing](syllabus/01-fundamentals-of-testing/1.5-essential-skills-and-good-practices-in-testing.md): Habilidades essenciais e boas práticas do testador.
+  - [1.5.1 Generic Skills Required for Testing](syllabus/01-fundamentals-of-testing/1.5.1-generic-skills-required-for-testing.md) [K2]: Habilidades genéricas relevantes para testar, com destaque para comunicação.
+  - [1.5.2 Whole Team Approach](syllabus/01-fundamentals-of-testing/1.5.2-whole-team-approach.md) [K1]: Abordagem de equipe inteira (whole team approach).
+  - [1.5.3 Independence of Testing](syllabus/01-fundamentals-of-testing/1.5.3-independence-of-testing.md) [K2]: Graus de independência do teste, com benefícios e desvantagens.
+
+### Capítulo 2: Testing Throughout the Software Development Lifecycle
+
+- [2 Testing Throughout the Software Development Lifecycle](syllabus/02-testing-throughout-the-software-development-lifecycle/_index.md): Teste ao longo do ciclo de vida: modelos de SDLC, test-first, DevOps, shift left, níveis, tipos e manutenção.
+- [2.1 Testing in the Context of a Software Development Lifecycle (SDLC)](syllabus/02-testing-throughout-the-software-development-lifecycle/2.1-testing-in-the-context-of-a-software-development-lifecycle-sdlc.md): Modelos de ciclo de vida (sequencial, iterativo, incremental) e métodos ágeis.
+  - [2.1.1 Impact of the Software Development Lifecycle on Testing](syllabus/02-testing-throughout-the-software-development-lifecycle/2.1.1-impact-of-the-software-development-lifecycle-on-testing.md) [K2]: Como a escolha do SDLC muda o teste.
+  - [2.1.2 Software Development Lifecycle and Good Testing Practices](syllabus/02-testing-throughout-the-software-development-lifecycle/2.1.2-software-development-lifecycle-and-good-testing-practices.md) [K1]: Boas práticas de teste válidas para qualquer SDLC.
+  - [2.1.3 Testing as a Driver for Software Development](syllabus/02-testing-throughout-the-software-development-lifecycle/2.1.3-testing-as-a-driver-for-software-development.md) [K1]: TDD, ATDD e BDD: testes definidos antes do código guiam o desenvolvimento.
+  - [2.1.4 DevOps and Testing](syllabus/02-testing-throughout-the-software-development-lifecycle/2.1.4-devops-and-testing.md) [K2]: DevOps e seus benefícios e riscos para o teste.
+  - [2.1.5 Shift Left](syllabus/02-testing-throughout-the-software-development-lifecycle/2.1.5-shift-left.md) [K2]: Shift left: testar mais cedo, sem abandonar o teste tardio.
+  - [2.1.6 Retrospectives and Process Improvement](syllabus/02-testing-throughout-the-software-development-lifecycle/2.1.6-retrospectives-and-process-improvement.md) [K2]: Retrospectivas como mecanismo de melhoria contínua.
+- [2.2 Test Levels and Test Types](syllabus/02-testing-throughout-the-software-development-lifecycle/2.2-test-levels-and-test-types.md): Níveis de teste (quando/onde) e tipos de teste (o quê).
+  - [2.2.1 Test Levels](syllabus/02-testing-throughout-the-software-development-lifecycle/2.2.1-test-levels.md) [K2]: Os cinco níveis: componente, integração de componentes, sistema, integração de sistemas e aceite.
+  - [2.2.2 Test Types](syllabus/02-testing-throughout-the-software-development-lifecycle/2.2.2-test-types.md) [K2]: Os quatro tipos: funcional, não funcional, caixa-preta e caixa-branca.
+  - [2.2.3 Confirmation Testing and Regression Testing](syllabus/02-testing-throughout-the-software-development-lifecycle/2.2.3-confirmation-testing-and-regression-testing.md) [K2]: Teste de confirmação (o defeito foi corrigido?) vs teste de regressão (a mudança quebrou algo?).
+- [2.3 Maintenance Testing](syllabus/02-testing-throughout-the-software-development-lifecycle/2.3-maintenance-testing.md) [K2]: Teste de manutenção: escopo e gatilhos (modificação, migração, aposentadoria).
+
+### Capítulo 3: Static Testing
+
+- [3 Static Testing](syllabus/03-static-testing/_index.md): Teste estático: produtos examináveis, valor, diferença para o dinâmico, feedback e processo de revisão.
+- [3.1 Static Testing Basics](syllabus/03-static-testing/3.1-static-testing-basics.md): Fundamentos do teste estático: revisões e análise estática.
+  - [3.1.1 Work Products Examinable by Static Testing](syllabus/03-static-testing/3.1.1-work-products-examinable-by-static-testing.md) [K1]: Produtos de trabalho que podem (ou não) passar por teste estático.
+  - [3.1.2 Value of Static Testing](syllabus/03-static-testing/3.1.2-value-of-static-testing.md) [K2]: Por que o teste estático vale a pena.
+  - [3.1.3 Differences between Static Testing and Dynamic Testing](syllabus/03-static-testing/3.1.3-differences-between-static-testing-and-dynamic-testing.md) [K2]: Diferenças entre teste estático e dinâmico e defeitos típicos de cada um.
+- [3.2 Feedback and Review Process](syllabus/03-static-testing/3.2-feedback-and-review-process.md): Feedback dos stakeholders e o processo de revisão.
+  - [3.2.1 Benefits of Early and Frequent Stakeholder Feedback](syllabus/03-static-testing/3.2.1-benefits-of-early-and-frequent-stakeholder-feedback.md) [K1]: Benefícios do feedback cedo e frequente dos stakeholders.
+  - [3.2.2 Review Process Activities](syllabus/03-static-testing/3.2.2-review-process-activities.md) [K2]: As cinco atividades do processo de revisão (ISO/IEC 20246).
+  - [3.2.3 Roles and Responsibilities in Reviews](syllabus/03-static-testing/3.2.3-roles-and-responsibilities-in-reviews.md) [K1]: Papéis na revisão: gerente, autor, moderador, escriba, revisor e líder da revisão.
+  - [3.2.4 Review Types](syllabus/03-static-testing/3.2.4-review-types.md) [K2]: Tipos de revisão: informal, walkthrough, revisão técnica e inspeção.
+  - [3.2.5 Success Factors for Reviews](syllabus/03-static-testing/3.2.5-success-factors-for-reviews.md) [K1]: Fatores de sucesso das revisões.
+
+### Capítulo 4: Test Analysis and Design
+
+- [4 Test Analysis and Design](syllabus/04-test-analysis-and-design/_index.md): Técnicas de teste: caixa-preta, caixa-branca, baseadas em experiência e abordagens colaborativas.
+- [4.1 Test Techniques Overview](syllabus/04-test-analysis-and-design/4.1-test-techniques-overview.md) [K2]: Visão geral e classificação das técnicas de teste.
+- [4.2 Black-Box Test Techniques](syllabus/04-test-analysis-and-design/4.2-black-box-test-techniques.md): Técnicas caixa-preta: EP, BVA, tabela de decisão e transição de estados.
+  - [4.2.1 Equivalence Partitioning](syllabus/04-test-analysis-and-design/4.2.1-equivalence-partitioning.md) [K3]: Particionamento de equivalência (equivalence partitioning) e cobertura Each Choice.
+  - [4.2.2 Boundary Value Analysis](syllabus/04-test-analysis-and-design/4.2.2-boundary-value-analysis.md) [K3]: Análise de valor limite (boundary value analysis) nas versões de 2 e 3 valores.
+  - [4.2.3 Decision Table Testing](syllabus/04-test-analysis-and-design/4.2.3-decision-table-testing.md) [K3]: Teste de tabela de decisão (decision table testing) para combinações de condições.
+  - [4.2.4 State Transition Testing](syllabus/04-test-analysis-and-design/4.2.4-state-transition-testing.md) [K3]: Teste de transição de estados (state transition testing) e seus três critérios de cobertura.
+- [4.3 White-Box Test Techniques](syllabus/04-test-analysis-and-design/4.3-white-box-test-techniques.md): Técnicas caixa-branca: teste de instrução e de ramo.
+  - [4.3.1 Statement Testing and Statement Coverage](syllabus/04-test-analysis-and-design/4.3.1-statement-testing-and-statement-coverage.md) [K2]: Teste e cobertura de instrução (statement coverage).
+  - [4.3.2 Branch Testing and Branch Coverage](syllabus/04-test-analysis-and-design/4.3.2-branch-testing-and-branch-coverage.md) [K2]: Teste e cobertura de ramo (branch coverage); ramo subsume instrução.
+  - [4.3.3 The Value of White-box Testing](syllabus/04-test-analysis-and-design/4.3.3-the-value-of-white-box-testing.md) [K2]: Valor e limitação do teste caixa-branca.
+- [4.4 Experience-based Test Techniques](syllabus/04-test-analysis-and-design/4.4-experience-based-test-techniques.md): Técnicas baseadas em experiência: suposição de erro, exploratório e checklist.
+  - [4.4.1 Error Guessing](syllabus/04-test-analysis-and-design/4.4.1-error-guessing.md) [K2]: Suposição de erro (error guessing) e ataques de falha.
+  - [4.4.2 Exploratory Testing](syllabus/04-test-analysis-and-design/4.4.2-exploratory-testing.md) [K2]: Teste exploratório e teste baseado em sessão (carta de teste, timebox, debriefing).
+  - [4.4.3 Checklist-Based Testing](syllabus/04-test-analysis-and-design/4.4.3-checklist-based-testing.md) [K2]: Teste baseado em checklist.
+- [4.5 Collaboration-based Test Approaches](syllabus/04-test-analysis-and-design/4.5-collaboration-based-test-approaches.md): Abordagens colaborativas focadas em evitar defeitos.
+  - [4.5.1 Collaborative User Story Writing](syllabus/04-test-analysis-and-design/4.5.1-collaborative-user-story-writing.md) [K2]: Escrita colaborativa de user stories: 3 C's e INVEST.
+  - [4.5.2 Acceptance Criteria](syllabus/04-test-analysis-and-design/4.5.2-acceptance-criteria.md) [K2]: Critérios de aceite: finalidade e formatos (cenário ou regra).
+  - [4.5.3 Acceptance Test-driven Development (ATDD)](syllabus/04-test-analysis-and-design/4.5.3-acceptance-test-driven-development-atdd.md) [K3]: ATDD: casos de teste a partir dos critérios de aceite, antes da implementação.
+
+### Capítulo 5: Managing the Test Activities
+
+- [5 Managing the Test Activities](syllabus/05-managing-the-test-activities/_index.md): Gestão do teste: planejamento, estimativa, priorização, riscos, monitoramento, relatórios, configuração e defeitos.
+- [5.1 Test Planning](syllabus/05-managing-the-test-activities/5.1-test-planning.md): Planejamento de teste e ferramentas de apoio ao planejamento.
+  - [5.1.1 Purpose and Content of a Test Plan](syllabus/05-managing-the-test-activities/5.1.1-purpose-and-content-of-a-test-plan.md) [K2]: Finalidade e conteúdo típico de um plano de teste.
+  - [5.1.2 Tester's Contribution to Iteration and Release Planning](syllabus/05-managing-the-test-activities/5.1.2-testers-contribution-to-iteration-and-release-planning.md) [K1]: Contribuição do testador no planejamento de release e de iteração.
+  - [5.1.3 Entry Criteria and Exit Criteria](syllabus/05-managing-the-test-activities/5.1.3-entry-criteria-and-exit-criteria.md) [K2]: Critérios de entrada e de saída (Definition of Ready / Definition of Done).
+  - [5.1.4 Estimation Techniques](syllabus/05-managing-the-test-activities/5.1.4-estimation-techniques.md) [K3]: Quatro técnicas de estimativa: razões, extrapolação, Wideband Delphi e três pontos.
+  - [5.1.5 Test Case Prioritization](syllabus/05-managing-the-test-activities/5.1.5-test-case-prioritization.md) [K3]: Priorização de casos de teste: por risco, por cobertura e por requisitos.
+  - [5.1.6 Test Pyramid](syllabus/05-managing-the-test-activities/5.1.6-test-pyramid.md) [K1]: Pirâmide de teste.
+  - [5.1.7 Testing Quadrants](syllabus/05-managing-the-test-activities/5.1.7-testing-quadrants.md) [K2]: Quadrantes de teste de Marick (Q1 a Q4).
+- [5.2 Risk Management](syllabus/05-managing-the-test-activities/5.2-risk-management.md): Gestão de riscos e teste baseado em risco.
+  - [5.2.1 Risk Definition and Risk Attributes](syllabus/05-managing-the-test-activities/5.2.1-risk-definition-and-risk-attributes.md) [K1]: Risco, probabilidade, impacto e nível de risco.
+  - [5.2.2 Project Risks and Product Risks](syllabus/05-managing-the-test-activities/5.2.2-project-risks-and-product-risks.md) [K2]: Riscos de projeto vs riscos de produto.
+  - [5.2.3 Product Risk Analysis](syllabus/05-managing-the-test-activities/5.2.3-product-risk-analysis.md) [K2]: Análise de risco de produto: identificação, avaliação e uso dos resultados.
+  - [5.2.4 Product Risk Control](syllabus/05-managing-the-test-activities/5.2.4-product-risk-control.md) [K2]: Controle de risco de produto: mitigação, monitoramento e respostas.
+- [5.3 Test Monitoring, Test Control and Test Completion](syllabus/05-managing-the-test-activities/5.3-test-monitoring-test-control-and-test-completion.md): Monitoramento, controle e conclusão do teste.
+  - [5.3.1 Metrics used in Testing](syllabus/05-managing-the-test-activities/5.3.1-metrics-used-in-testing.md) [K1]: Métricas usadas em teste.
+  - [5.3.2 Purpose, Content and Audience for Test Reports](syllabus/05-managing-the-test-activities/5.3.2-purpose-content-and-audience-for-test-reports.md) [K2]: Relatório de progresso vs relatório de conclusão: finalidade, conteúdo e público.
+  - [5.3.3 Communicating the Status of Testing](syllabus/05-managing-the-test-activities/5.3.3-communicating-the-status-of-testing.md) [K2]: Formas de comunicar o status do teste.
+- [5.4 Configuration Management](syllabus/05-managing-the-test-activities/5.4-configuration-management.md) [K2]: Gestão de configuração em apoio ao teste.
+- [5.5 Defect Management](syllabus/05-managing-the-test-activities/5.5-defect-management.md) [K3]: Gestão de defeitos e conteúdo de um relatório de defeito.
+
+### Capítulo 6: Test Tools
+
+- [6 Test Tools](syllabus/06-test-tools/_index.md): Ferramentas de teste: categorias e benefícios e riscos da automação.
+- [6.1 Tool Support for Testing](syllabus/06-test-tools/6.1-tool-support-for-testing.md) [K2]: Categorias de ferramentas que apoiam o teste.
+- [6.2 Benefits and Risks of Test Automation](syllabus/06-test-tools/6.2-benefits-and-risks-of-test-automation.md) [K1]: Benefícios e riscos da automação de teste.
+
+## Optional
+
+- [Syllabus oficial (PDF)](https://istqb.org/certifications/certified-tester-foundation-level-ctfl-v4-0/): fonte primária, use quando precisar do texto exato e não houver syllabus-texto/
+- [Glossário oficial ISTQB](https://glossary.istqb.org/): definições dos termos
+- [scripts/](scripts/): pipeline PDF → markdown (converter, dividir, extrair_metadados, validar)

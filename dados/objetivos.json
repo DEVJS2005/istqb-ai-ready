@@ -1,0 +1,584 @@
+{
+  "fonte": "ISTQB Certified Tester Foundation Level Syllabus v4.0.1",
+  "link_oficial": "https://istqb.org/certifications/certified-tester-foundation-level-ctfl-v4-0/",
+  "aviso": "Metadados de referência. O texto do syllabus não é reproduzido; consulte o PDF oficial.",
+  "total": 64,
+  "objetivos": [
+    {
+      "codigo": "FL-1.1.1",
+      "nivel_k": "K1",
+      "capitulo": 1,
+      "secao": "1.1.1",
+      "titulo_secao": "Test Objectives",
+      "arquivo": "syllabus/01-fundamentals-of-testing/1.1.1-test-objectives.md",
+      "arquivo_texto": "syllabus-texto/01-fundamentals-of-testing/1.1.1-test-objectives.md"
+    },
+    {
+      "codigo": "FL-1.1.2",
+      "nivel_k": "K2",
+      "capitulo": 1,
+      "secao": "1.1.2",
+      "titulo_secao": "Testing and Debugging",
+      "arquivo": "syllabus/01-fundamentals-of-testing/1.1.2-testing-and-debugging.md",
+      "arquivo_texto": "syllabus-texto/01-fundamentals-of-testing/1.1.2-testing-and-debugging.md"
+    },
+    {
+      "codigo": "FL-1.2.1",
+      "nivel_k": "K2",
+      "capitulo": 1,
+      "secao": "1.2.1",
+      "titulo_secao": "Testing’s Contributions to Success",
+      "arquivo": "syllabus/01-fundamentals-of-testing/1.2.1-testings-contributions-to-success.md",
+      "arquivo_texto": "syllabus-texto/01-fundamentals-of-testing/1.2.1-testings-contributions-to-success.md"
+    },
+    {
+      "codigo": "FL-1.2.2",
+      "nivel_k": "K1",
+      "capitulo": 1,
+      "secao": "1.2.2",
+      "titulo_secao": "Testing and Quality Assurance (QA)",
+      "arquivo": "syllabus/01-fundamentals-of-testing/1.2.2-testing-and-quality-assurance-qa.md",
+      "arquivo_texto": "syllabus-texto/01-fundamentals-of-testing/1.2.2-testing-and-quality-assurance-qa.md"
+    },
+    {
+      "codigo": "FL-1.2.3",
+      "nivel_k": "K2",
+      "capitulo": 1,
+      "secao": "1.2.3",
+      "titulo_secao": "Errors, Defects, Failures, and Root Causes",
+      "arquivo": "syllabus/01-fundamentals-of-testing/1.2.3-errors-defects-failures-and-root-causes.md",
+      "arquivo_texto": "syllabus-texto/01-fundamentals-of-testing/1.2.3-errors-defects-failures-and-root-causes.md"
+    },
+    {
+      "codigo": "FL-1.3.1",
+      "nivel_k": "K2",
+      "capitulo": 1,
+      "secao": "1.3",
+      "titulo_secao": "Testing Principles",
+      "arquivo": "syllabus/01-fundamentals-of-testing/1.3-testing-principles.md",
+      "arquivo_texto": "syllabus-texto/01-fundamentals-of-testing/1.3-testing-principles.md"
+    },
+    {
+      "codigo": "FL-1.4.1",
+      "nivel_k": "K2",
+      "capitulo": 1,
+      "secao": "1.4.1",
+      "titulo_secao": "Test Activities and Tasks",
+      "arquivo": "syllabus/01-fundamentals-of-testing/1.4.1-test-activities-and-tasks.md",
+      "arquivo_texto": "syllabus-texto/01-fundamentals-of-testing/1.4.1-test-activities-and-tasks.md"
+    },
+    {
+      "codigo": "FL-1.4.2",
+      "nivel_k": "K2",
+      "capitulo": 1,
+      "secao": "1.4.2",
+      "titulo_secao": "Test Process in Context",
+      "arquivo": "syllabus/01-fundamentals-of-testing/1.4.2-test-process-in-context.md",
+      "arquivo_texto": "syllabus-texto/01-fundamentals-of-testing/1.4.2-test-process-in-context.md"
+    },
+    {
+      "codigo": "FL-1.4.3",
+      "nivel_k": "K2",
+      "capitulo": 1,
+      "secao": "1.4.3",
+      "titulo_secao": "Testware",
+      "arquivo": "syllabus/01-fundamentals-of-testing/1.4.3-testware.md",
+      "arquivo_texto": "syllabus-texto/01-fundamentals-of-testing/1.4.3-testware.md"
+    },
+    {
+      "codigo": "FL-1.4.4",
+      "nivel_k": "K2",
+      "capitulo": 1,
+      "secao": "1.4.4",
+      "titulo_secao": "Traceability between the Test Basis and Testware",
+      "arquivo": "syllabus/01-fundamentals-of-testing/1.4.4-traceability-between-the-test-basis-and-testware.md",
+      "arquivo_texto": "syllabus-texto/01-fundamentals-of-testing/1.4.4-traceability-between-the-test-basis-and-testware.md"
+    },
+    {
+      "codigo": "FL-1.4.5",
+      "nivel_k": "K2",
+      "capitulo": 1,
+      "secao": "1.4.5",
+      "titulo_secao": "Roles in Testing",
+      "arquivo": "syllabus/01-fundamentals-of-testing/1.4.5-roles-in-testing.md",
+      "arquivo_texto": "syllabus-texto/01-fundamentals-of-testing/1.4.5-roles-in-testing.md"
+    },
+    {
+      "codigo": "FL-1.5.1",
+      "nivel_k": "K2",
+      "capitulo": 1,
+      "secao": "1.5.1",
+      "titulo_secao": "Generic Skills Required for Testing",
+      "arquivo": "syllabus/01-fundamentals-of-testing/1.5.1-generic-skills-required-for-testing.md",
+      "arquivo_texto": "syllabus-texto/01-fundamentals-of-testing/1.5.1-generic-skills-required-for-testing.md"
+    },
+    {
+      "codigo": "FL-1.5.2",
+      "nivel_k": "K1",
+      "capitulo": 1,
+      "secao": "1.5.2",
+      "titulo_secao": "Whole Team Approach",
+      "arquivo": "syllabus/01-fundamentals-of-testing/1.5.2-whole-team-approach.md",
+      "arquivo_texto": "syllabus-texto/01-fundamentals-of-testing/1.5.2-whole-team-approach.md"
+    },
+    {
+      "codigo": "FL-1.5.3",
+      "nivel_k": "K2",
+      "capitulo": 1,
+      "secao": "1.5.3",
+      "titulo_secao": "Independence of Testing",
+      "arquivo": "syllabus/01-fundamentals-of-testing/1.5.3-independence-of-testing.md",
+      "arquivo_texto": "syllabus-texto/01-fundamentals-of-testing/1.5.3-independence-of-testing.md"
+    },
+    {
+      "codigo": "FL-2.1.1",
+      "nivel_k": "K2",
+      "capitulo": 2,
+      "secao": "2.1.1",
+      "titulo_secao": "Impact of the Software Development Lifecycle on Testing",
+      "arquivo": "syllabus/02-testing-throughout-the-software-development-lifecycle/2.1.1-impact-of-the-software-development-lifecycle-on-testing.md",
+      "arquivo_texto": "syllabus-texto/02-testing-throughout-the-software-development-lifecycle/2.1.1-impact-of-the-software-development-lifecycle-on-testing.md"
+    },
+    {
+      "codigo": "FL-2.1.2",
+      "nivel_k": "K1",
+      "capitulo": 2,
+      "secao": "2.1.2",
+      "titulo_secao": "Software Development Lifecycle and Good Testing Practices",
+      "arquivo": "syllabus/02-testing-throughout-the-software-development-lifecycle/2.1.2-software-development-lifecycle-and-good-testing-practices.md",
+      "arquivo_texto": "syllabus-texto/02-testing-throughout-the-software-development-lifecycle/2.1.2-software-development-lifecycle-and-good-testing-practices.md"
+    },
+    {
+      "codigo": "FL-2.1.3",
+      "nivel_k": "K1",
+      "capitulo": 2,
+      "secao": "2.1.3",
+      "titulo_secao": "Testing as a Driver for Software Development",
+      "arquivo": "syllabus/02-testing-throughout-the-software-development-lifecycle/2.1.3-testing-as-a-driver-for-software-development.md",
+      "arquivo_texto": "syllabus-texto/02-testing-throughout-the-software-development-lifecycle/2.1.3-testing-as-a-driver-for-software-development.md"
+    },
+    {
+      "codigo": "FL-2.1.4",
+      "nivel_k": "K2",
+      "capitulo": 2,
+      "secao": "2.1.4",
+      "titulo_secao": "DevOps and Testing",
+      "arquivo": "syllabus/02-testing-throughout-the-software-development-lifecycle/2.1.4-devops-and-testing.md",
+      "arquivo_texto": "syllabus-texto/02-testing-throughout-the-software-development-lifecycle/2.1.4-devops-and-testing.md"
+    },
+    {
+      "codigo": "FL-2.1.5",
+      "nivel_k": "K2",
+      "capitulo": 2,
+      "secao": "2.1.5",
+      "titulo_secao": "Shift Left",
+      "arquivo": "syllabus/02-testing-throughout-the-software-development-lifecycle/2.1.5-shift-left.md",
+      "arquivo_texto": "syllabus-texto/02-testing-throughout-the-software-development-lifecycle/2.1.5-shift-left.md"
+    },
+    {
+      "codigo": "FL-2.1.6",
+      "nivel_k": "K2",
+      "capitulo": 2,
+      "secao": "2.1.6",
+      "titulo_secao": "Retrospectives and Process Improvement",
+      "arquivo": "syllabus/02-testing-throughout-the-software-development-lifecycle/2.1.6-retrospectives-and-process-improvement.md",
+      "arquivo_texto": "syllabus-texto/02-testing-throughout-the-software-development-lifecycle/2.1.6-retrospectives-and-process-improvement.md"
+    },
+    {
+      "codigo": "FL-2.2.1",
+      "nivel_k": "K2",
+      "capitulo": 2,
+      "secao": "2.2.1",
+      "titulo_secao": "Test Levels",
+      "arquivo": "syllabus/02-testing-throughout-the-software-development-lifecycle/2.2.1-test-levels.md",
+      "arquivo_texto": "syllabus-texto/02-testing-throughout-the-software-development-lifecycle/2.2.1-test-levels.md"
+    },
+    {
+      "codigo": "FL-2.2.2",
+      "nivel_k": "K2",
+      "capitulo": 2,
+      "secao": "2.2.2",
+      "titulo_secao": "Test Types",
+      "arquivo": "syllabus/02-testing-throughout-the-software-development-lifecycle/2.2.2-test-types.md",
+      "arquivo_texto": "syllabus-texto/02-testing-throughout-the-software-development-lifecycle/2.2.2-test-types.md"
+    },
+    {
+      "codigo": "FL-2.2.3",
+      "nivel_k": "K2",
+      "capitulo": 2,
+      "secao": "2.2.3",
+      "titulo_secao": "Confirmation Testing and Regression Testing",
+      "arquivo": "syllabus/02-testing-throughout-the-software-development-lifecycle/2.2.3-confirmation-testing-and-regression-testing.md",
+      "arquivo_texto": "syllabus-texto/02-testing-throughout-the-software-development-lifecycle/2.2.3-confirmation-testing-and-regression-testing.md"
+    },
+    {
+      "codigo": "FL-2.3.1",
+      "nivel_k": "K2",
+      "capitulo": 2,
+      "secao": "2.3",
+      "titulo_secao": "Maintenance Testing",
+      "arquivo": "syllabus/02-testing-throughout-the-software-development-lifecycle/2.3-maintenance-testing.md",
+      "arquivo_texto": "syllabus-texto/02-testing-throughout-the-software-development-lifecycle/2.3-maintenance-testing.md"
+    },
+    {
+      "codigo": "FL-3.1.1",
+      "nivel_k": "K1",
+      "capitulo": 3,
+      "secao": "3.1.1",
+      "titulo_secao": "Work Products Examinable by Static Testing",
+      "arquivo": "syllabus/03-static-testing/3.1.1-work-products-examinable-by-static-testing.md",
+      "arquivo_texto": "syllabus-texto/03-static-testing/3.1.1-work-products-examinable-by-static-testing.md"
+    },
+    {
+      "codigo": "FL-3.1.2",
+      "nivel_k": "K2",
+      "capitulo": 3,
+      "secao": "3.1.2",
+      "titulo_secao": "Value of Static Testing",
+      "arquivo": "syllabus/03-static-testing/3.1.2-value-of-static-testing.md",
+      "arquivo_texto": "syllabus-texto/03-static-testing/3.1.2-value-of-static-testing.md"
+    },
+    {
+      "codigo": "FL-3.1.3",
+      "nivel_k": "K2",
+      "capitulo": 3,
+      "secao": "3.1.3",
+      "titulo_secao": "Differences between Static Testing and Dynamic Testing",
+      "arquivo": "syllabus/03-static-testing/3.1.3-differences-between-static-testing-and-dynamic-testing.md",
+      "arquivo_texto": "syllabus-texto/03-static-testing/3.1.3-differences-between-static-testing-and-dynamic-testing.md"
+    },
+    {
+      "codigo": "FL-3.2.1",
+      "nivel_k": "K1",
+      "capitulo": 3,
+      "secao": "3.2.1",
+      "titulo_secao": "Benefits of Early and Frequent Stakeholder Feedback",
+      "arquivo": "syllabus/03-static-testing/3.2.1-benefits-of-early-and-frequent-stakeholder-feedback.md",
+      "arquivo_texto": "syllabus-texto/03-static-testing/3.2.1-benefits-of-early-and-frequent-stakeholder-feedback.md"
+    },
+    {
+      "codigo": "FL-3.2.2",
+      "nivel_k": "K2",
+      "capitulo": 3,
+      "secao": "3.2.2",
+      "titulo_secao": "Review Process Activities",
+      "arquivo": "syllabus/03-static-testing/3.2.2-review-process-activities.md",
+      "arquivo_texto": "syllabus-texto/03-static-testing/3.2.2-review-process-activities.md"
+    },
+    {
+      "codigo": "FL-3.2.3",
+      "nivel_k": "K1",
+      "capitulo": 3,
+      "secao": "3.2.3",
+      "titulo_secao": "Roles and Responsibilities in Reviews",
+      "arquivo": "syllabus/03-static-testing/3.2.3-roles-and-responsibilities-in-reviews.md",
+      "arquivo_texto": "syllabus-texto/03-static-testing/3.2.3-roles-and-responsibilities-in-reviews.md"
+    },
+    {
+      "codigo": "FL-3.2.4",
+      "nivel_k": "K2",
+      "capitulo": 3,
+      "secao": "3.2.4",
+      "titulo_secao": "Review Types",
+      "arquivo": "syllabus/03-static-testing/3.2.4-review-types.md",
+      "arquivo_texto": "syllabus-texto/03-static-testing/3.2.4-review-types.md"
+    },
+    {
+      "codigo": "FL-3.2.5",
+      "nivel_k": "K1",
+      "capitulo": 3,
+      "secao": "3.2.5",
+      "titulo_secao": "Success Factors for Reviews",
+      "arquivo": "syllabus/03-static-testing/3.2.5-success-factors-for-reviews.md",
+      "arquivo_texto": "syllabus-texto/03-static-testing/3.2.5-success-factors-for-reviews.md"
+    },
+    {
+      "codigo": "FL-4.1.1",
+      "nivel_k": "K2",
+      "capitulo": 4,
+      "secao": "4.1",
+      "titulo_secao": "Test Techniques Overview",
+      "arquivo": "syllabus/04-test-analysis-and-design/4.1-test-techniques-overview.md",
+      "arquivo_texto": "syllabus-texto/04-test-analysis-and-design/4.1-test-techniques-overview.md"
+    },
+    {
+      "codigo": "FL-4.2.1",
+      "nivel_k": "K3",
+      "capitulo": 4,
+      "secao": "4.2.1",
+      "titulo_secao": "Equivalence Partitioning",
+      "arquivo": "syllabus/04-test-analysis-and-design/4.2.1-equivalence-partitioning.md",
+      "arquivo_texto": "syllabus-texto/04-test-analysis-and-design/4.2.1-equivalence-partitioning.md"
+    },
+    {
+      "codigo": "FL-4.2.2",
+      "nivel_k": "K3",
+      "capitulo": 4,
+      "secao": "4.2.2",
+      "titulo_secao": "Boundary Value Analysis",
+      "arquivo": "syllabus/04-test-analysis-and-design/4.2.2-boundary-value-analysis.md",
+      "arquivo_texto": "syllabus-texto/04-test-analysis-and-design/4.2.2-boundary-value-analysis.md"
+    },
+    {
+      "codigo": "FL-4.2.3",
+      "nivel_k": "K3",
+      "capitulo": 4,
+      "secao": "4.2.3",
+      "titulo_secao": "Decision Table Testing",
+      "arquivo": "syllabus/04-test-analysis-and-design/4.2.3-decision-table-testing.md",
+      "arquivo_texto": "syllabus-texto/04-test-analysis-and-design/4.2.3-decision-table-testing.md"
+    },
+    {
+      "codigo": "FL-4.2.4",
+      "nivel_k": "K3",
+      "capitulo": 4,
+      "secao": "4.2.4",
+      "titulo_secao": "State Transition Testing",
+      "arquivo": "syllabus/04-test-analysis-and-design/4.2.4-state-transition-testing.md",
+      "arquivo_texto": "syllabus-texto/04-test-analysis-and-design/4.2.4-state-transition-testing.md"
+    },
+    {
+      "codigo": "FL-4.3.1",
+      "nivel_k": "K2",
+      "capitulo": 4,
+      "secao": "4.3.1",
+      "titulo_secao": "Statement Testing and Statement Coverage",
+      "arquivo": "syllabus/04-test-analysis-and-design/4.3.1-statement-testing-and-statement-coverage.md",
+      "arquivo_texto": "syllabus-texto/04-test-analysis-and-design/4.3.1-statement-testing-and-statement-coverage.md"
+    },
+    {
+      "codigo": "FL-4.3.2",
+      "nivel_k": "K2",
+      "capitulo": 4,
+      "secao": "4.3.2",
+      "titulo_secao": "Branch Testing and Branch Coverage",
+      "arquivo": "syllabus/04-test-analysis-and-design/4.3.2-branch-testing-and-branch-coverage.md",
+      "arquivo_texto": "syllabus-texto/04-test-analysis-and-design/4.3.2-branch-testing-and-branch-coverage.md"
+    },
+    {
+      "codigo": "FL-4.3.3",
+      "nivel_k": "K2",
+      "capitulo": 4,
+      "secao": "4.3.3",
+      "titulo_secao": "The Value of White-box Testing",
+      "arquivo": "syllabus/04-test-analysis-and-design/4.3.3-the-value-of-white-box-testing.md",
+      "arquivo_texto": "syllabus-texto/04-test-analysis-and-design/4.3.3-the-value-of-white-box-testing.md"
+    },
+    {
+      "codigo": "FL-4.4.1",
+      "nivel_k": "K2",
+      "capitulo": 4,
+      "secao": "4.4.1",
+      "titulo_secao": "Error Guessing",
+      "arquivo": "syllabus/04-test-analysis-and-design/4.4.1-error-guessing.md",
+      "arquivo_texto": "syllabus-texto/04-test-analysis-and-design/4.4.1-error-guessing.md"
+    },
+    {
+      "codigo": "FL-4.4.2",
+      "nivel_k": "K2",
+      "capitulo": 4,
+      "secao": "4.4.2",
+      "titulo_secao": "Exploratory Testing",
+      "arquivo": "syllabus/04-test-analysis-and-design/4.4.2-exploratory-testing.md",
+      "arquivo_texto": "syllabus-texto/04-test-analysis-and-design/4.4.2-exploratory-testing.md"
+    },
+    {
+      "codigo": "FL-4.4.3",
+      "nivel_k": "K2",
+      "capitulo": 4,
+      "secao": "4.4.3",
+      "titulo_secao": "Checklist-Based Testing",
+      "arquivo": "syllabus/04-test-analysis-and-design/4.4.3-checklist-based-testing.md",
+      "arquivo_texto": "syllabus-texto/04-test-analysis-and-design/4.4.3-checklist-based-testing.md"
+    },
+    {
+      "codigo": "FL-4.5.1",
+      "nivel_k": "K2",
+      "capitulo": 4,
+      "secao": "4.5.1",
+      "titulo_secao": "Collaborative User Story Writing",
+      "arquivo": "syllabus/04-test-analysis-and-design/4.5.1-collaborative-user-story-writing.md",
+      "arquivo_texto": "syllabus-texto/04-test-analysis-and-design/4.5.1-collaborative-user-story-writing.md"
+    },
+    {
+      "codigo": "FL-4.5.2",
+      "nivel_k": "K2",
+      "capitulo": 4,
+      "secao": "4.5.2",
+      "titulo_secao": "Acceptance Criteria",
+      "arquivo": "syllabus/04-test-analysis-and-design/4.5.2-acceptance-criteria.md",
+      "arquivo_texto": "syllabus-texto/04-test-analysis-and-design/4.5.2-acceptance-criteria.md"
+    },
+    {
+      "codigo": "FL-4.5.3",
+      "nivel_k": "K3",
+      "capitulo": 4,
+      "secao": "4.5.3",
+      "titulo_secao": "Acceptance Test-driven Development (ATDD)",
+      "arquivo": "syllabus/04-test-analysis-and-design/4.5.3-acceptance-test-driven-development-atdd.md",
+      "arquivo_texto": "syllabus-texto/04-test-analysis-and-design/4.5.3-acceptance-test-driven-development-atdd.md"
+    },
+    {
+      "codigo": "FL-5.1.1",
+      "nivel_k": "K2",
+      "capitulo": 5,
+      "secao": "5.1.1",
+      "titulo_secao": "Purpose and Content of a Test Plan",
+      "arquivo": "syllabus/05-managing-the-test-activities/5.1.1-purpose-and-content-of-a-test-plan.md",
+      "arquivo_texto": "syllabus-texto/05-managing-the-test-activities/5.1.1-purpose-and-content-of-a-test-plan.md"
+    },
+    {
+      "codigo": "FL-5.1.2",
+      "nivel_k": "K1",
+      "capitulo": 5,
+      "secao": "5.1.2",
+      "titulo_secao": "Tester's Contribution to Iteration and Release Planning",
+      "arquivo": "syllabus/05-managing-the-test-activities/5.1.2-testers-contribution-to-iteration-and-release-planning.md",
+      "arquivo_texto": "syllabus-texto/05-managing-the-test-activities/5.1.2-testers-contribution-to-iteration-and-release-planning.md"
+    },
+    {
+      "codigo": "FL-5.1.3",
+      "nivel_k": "K2",
+      "capitulo": 5,
+      "secao": "5.1.3",
+      "titulo_secao": "Entry Criteria and Exit Criteria",
+      "arquivo": "syllabus/05-managing-the-test-activities/5.1.3-entry-criteria-and-exit-criteria.md",
+      "arquivo_texto": "syllabus-texto/05-managing-the-test-activities/5.1.3-entry-criteria-and-exit-criteria.md"
+    },
+    {
+      "codigo": "FL-5.1.4",
+      "nivel_k": "K3",
+      "capitulo": 5,
+      "secao": "5.1.4",
+      "titulo_secao": "Estimation Techniques",
+      "arquivo": "syllabus/05-managing-the-test-activities/5.1.4-estimation-techniques.md",
+      "arquivo_texto": "syllabus-texto/05-managing-the-test-activities/5.1.4-estimation-techniques.md"
+    },
+    {
+      "codigo": "FL-5.1.5",
+      "nivel_k": "K3",
+      "capitulo": 5,
+      "secao": "5.1.5",
+      "titulo_secao": "Test Case Prioritization",
+      "arquivo": "syllabus/05-managing-the-test-activities/5.1.5-test-case-prioritization.md",
+      "arquivo_texto": "syllabus-texto/05-managing-the-test-activities/5.1.5-test-case-prioritization.md"
+    },
+    {
+      "codigo": "FL-5.1.6",
+      "nivel_k": "K1",
+      "capitulo": 5,
+      "secao": "5.1.6",
+      "titulo_secao": "Test Pyramid",
+      "arquivo": "syllabus/05-managing-the-test-activities/5.1.6-test-pyramid.md",
+      "arquivo_texto": "syllabus-texto/05-managing-the-test-activities/5.1.6-test-pyramid.md"
+    },
+    {
+      "codigo": "FL-5.1.7",
+      "nivel_k": "K2",
+      "capitulo": 5,
+      "secao": "5.1.7",
+      "titulo_secao": "Testing Quadrants",
+      "arquivo": "syllabus/05-managing-the-test-activities/5.1.7-testing-quadrants.md",
+      "arquivo_texto": "syllabus-texto/05-managing-the-test-activities/5.1.7-testing-quadrants.md"
+    },
+    {
+      "codigo": "FL-5.2.1",
+      "nivel_k": "K1",
+      "capitulo": 5,
+      "secao": "5.2.1",
+      "titulo_secao": "Risk Definition and Risk Attributes",
+      "arquivo": "syllabus/05-managing-the-test-activities/5.2.1-risk-definition-and-risk-attributes.md",
+      "arquivo_texto": "syllabus-texto/05-managing-the-test-activities/5.2.1-risk-definition-and-risk-attributes.md"
+    },
+    {
+      "codigo": "FL-5.2.2",
+      "nivel_k": "K2",
+      "capitulo": 5,
+      "secao": "5.2.2",
+      "titulo_secao": "Project Risks and Product Risks",
+      "arquivo": "syllabus/05-managing-the-test-activities/5.2.2-project-risks-and-product-risks.md",
+      "arquivo_texto": "syllabus-texto/05-managing-the-test-activities/5.2.2-project-risks-and-product-risks.md"
+    },
+    {
+      "codigo": "FL-5.2.3",
+      "nivel_k": "K2",
+      "capitulo": 5,
+      "secao": "5.2.3",
+      "titulo_secao": "Product Risk Analysis",
+      "arquivo": "syllabus/05-managing-the-test-activities/5.2.3-product-risk-analysis.md",
+      "arquivo_texto": "syllabus-texto/05-managing-the-test-activities/5.2.3-product-risk-analysis.md"
+    },
+    {
+      "codigo": "FL-5.2.4",
+      "nivel_k": "K2",
+      "capitulo": 5,
+      "secao": "5.2.4",
+      "titulo_secao": "Product Risk Control",
+      "arquivo": "syllabus/05-managing-the-test-activities/5.2.4-product-risk-control.md",
+      "arquivo_texto": "syllabus-texto/05-managing-the-test-activities/5.2.4-product-risk-control.md"
+    },
+    {
+      "codigo": "FL-5.3.1",
+      "nivel_k": "K1",
+      "capitulo": 5,
+      "secao": "5.3.1",
+      "titulo_secao": "Metrics used in Testing",
+      "arquivo": "syllabus/05-managing-the-test-activities/5.3.1-metrics-used-in-testing.md",
+      "arquivo_texto": "syllabus-texto/05-managing-the-test-activities/5.3.1-metrics-used-in-testing.md"
+    },
+    {
+      "codigo": "FL-5.3.2",
+      "nivel_k": "K2",
+      "capitulo": 5,
+      "secao": "5.3.2",
+      "titulo_secao": "Purpose, Content and Audience for Test Reports",
+      "arquivo": "syllabus/05-managing-the-test-activities/5.3.2-purpose-content-and-audience-for-test-reports.md",
+      "arquivo_texto": "syllabus-texto/05-managing-the-test-activities/5.3.2-purpose-content-and-audience-for-test-reports.md"
+    },
+    {
+      "codigo": "FL-5.3.3",
+      "nivel_k": "K2",
+      "capitulo": 5,
+      "secao": "5.3.3",
+      "titulo_secao": "Communicating the Status of Testing",
+      "arquivo": "syllabus/05-managing-the-test-activities/5.3.3-communicating-the-status-of-testing.md",
+      "arquivo_texto": "syllabus-texto/05-managing-the-test-activities/5.3.3-communicating-the-status-of-testing.md"
+    },
+    {
+      "codigo": "FL-5.4.1",
+      "nivel_k": "K2",
+      "capitulo": 5,
+      "secao": "5.4",
+      "titulo_secao": "Configuration Management",
+      "arquivo": "syllabus/05-managing-the-test-activities/5.4-configuration-management.md",
+      "arquivo_texto": "syllabus-texto/05-managing-the-test-activities/5.4-configuration-management.md"
+    },
+    {
+      "codigo": "FL-5.5.1",
+      "nivel_k": "K3",
+      "capitulo": 5,
+      "secao": "5.5",
+      "titulo_secao": "Defect Management",
+      "arquivo": "syllabus/05-managing-the-test-activities/5.5-defect-management.md",
+      "arquivo_texto": "syllabus-texto/05-managing-the-test-activities/5.5-defect-management.md"
+    },
+    {
+      "codigo": "FL-6.1.1",
+      "nivel_k": "K2",
+      "capitulo": 6,
+      "secao": "6.1",
+      "titulo_secao": "Tool Support for Testing",
+      "arquivo": "syllabus/06-test-tools/6.1-tool-support-for-testing.md",
+      "arquivo_texto": "syllabus-texto/06-test-tools/6.1-tool-support-for-testing.md"
+    },
+    {
+      "codigo": "FL-6.2.1",
+      "nivel_k": "K1",
+      "capitulo": 6,
+      "secao": "6.2",
+      "titulo_secao": "Benefits and Risks of Test Automation",
+      "arquivo": "syllabus/06-test-tools/6.2-benefits-and-risks-of-test-automation.md",
+      "arquivo_texto": "syllabus-texto/06-test-tools/6.2-benefits-and-risks-of-test-automation.md"
+    }
+  ]
+}
