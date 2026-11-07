@@ -1,10 +1,43 @@
-# istqb-ai-ready
+# istqb-ai-ready: ISTQB CTFL syllabus for AI agents and QA engineering
+
+[![License: MIT](https://img.shields.io/badge/code-MIT-blue.svg)](LICENSE)
+[![Content: CC BY-NC 4.0](https://img.shields.io/badge/content-CC%20BY--NC%204.0-lightgrey.svg)](LICENSE-CONTENT.md)
+[![ISTQB CTFL v4.0.1](https://img.shields.io/badge/ISTQB%20CTFL-v4.0.1-0a7bbb.svg)](https://istqb.org/certifications/certified-tester-foundation-level-ctfl-v4-0/)
+[![llms.txt](https://img.shields.io/badge/llms.txt-ready-green.svg)](llms.txt)
+[![Validation](https://img.shields.io/badge/validation-7%2F7%20checks-brightgreen.svg)](scripts/validate.py)
 
 *Leia em português: [README.pt-BR.md](README.pt-BR.md)*
 
-A QA knowledge base built on the **ISTQB® Certified Tester Foundation Level (CTFL) Syllabus v4.0.1**,
-organised so that AI tools (Claude Code and others) can **read, search and cite** the syllabus section by
-section. It serves as a good-practice guide for other testing projects.
+A **QA engineering knowledge base** and **software testing best-practices standard** built on the
+**ISTQB® Certified Tester Foundation Level (CTFL) Syllabus v4.0.1**, structured so that AI coding agents
+(Claude Code, Cursor, Copilot and any tool that reads `llms.txt`) can **read, search and cite** the syllabus
+section by section. Plug it into any testing project as a git submodule and your AI assistant plans, designs
+and reviews tests following the ISTQB standard, citing the section it used.
+
+## Who is this for
+
+- **QA engineers and test analysts** who want a shared, citable standard for test design and test planning.
+- **Teams using AI coding agents** for test automation (Playwright, Cypress, Selenium, Jest, pytest…) who want
+  the agent to follow recognised testing practices instead of improvising.
+- **People studying for the ISTQB CTFL exam** who want a structured map of the syllabus, its 64 learning
+  objectives and K-levels.
+
+## What it covers
+
+| QA engineering topic | Where |
+|---|---|
+| Test design techniques: equivalence partitioning, boundary value analysis, decision tables, state transition testing | [4.2](syllabus/04-test-analysis-and-design/4.2-black-box-test-techniques.md) · [guide](guides/black-box-techniques.md) |
+| White-box testing: statement and branch coverage | [4.3](syllabus/04-test-analysis-and-design/4.3-white-box-test-techniques.md) |
+| Experience-based testing: error guessing, exploratory, checklist-based | [4.4](syllabus/04-test-analysis-and-design/4.4-experience-based-test-techniques.md) |
+| Acceptance criteria, user stories, ATDD/BDD/TDD | [4.5](syllabus/04-test-analysis-and-design/4.5-collaboration-based-test-approaches.md) · [2.1.3](syllabus/02-testing-throughout-the-software-development-lifecycle/2.1.3-testing-as-a-driver-for-software-development.md) |
+| Test strategy, test plan, entry/exit criteria, estimation | [5.1](syllabus/05-managing-the-test-activities/5.1-test-planning.md) · [checklist](guides/test-planning-checklist.md) · [template](guides/test-plan-template.md) |
+| Risk-based testing, product and project risk | [5.2](syllabus/05-managing-the-test-activities/5.2-risk-management.md) |
+| Test pyramid and testing quadrants | [5.1.6](syllabus/05-managing-the-test-activities/5.1.6-test-pyramid.md) · [5.1.7](syllabus/05-managing-the-test-activities/5.1.7-testing-quadrants.md) |
+| Test levels, test types, regression and confirmation testing | [2.2](syllabus/02-testing-throughout-the-software-development-lifecycle/2.2-test-levels-and-test-types.md) |
+| Shift left, DevOps and CI/CD testing | [2.1.4](syllabus/02-testing-throughout-the-software-development-lifecycle/2.1.4-devops-and-testing.md) · [2.1.5](syllabus/02-testing-throughout-the-software-development-lifecycle/2.1.5-shift-left.md) |
+| Static testing and reviews | [3](syllabus/03-static-testing/_index.md) |
+| Defect reports, test reports, metrics | [5.5](syllabus/05-managing-the-test-activities/5.5-defect-management.md) · [5.3](syllabus/05-managing-the-test-activities/5.3-test-monitoring-test-control-and-test-completion.md) |
+| Test automation benefits and risks, test tools | [6](syllabus/06-test-tools/_index.md) |
 
 > Independent project, not affiliated with ISTQB® or BSTQB. **This repository does not contain the syllabus
 > text**: it contains the structure (sections, objectives, keywords, pages), our own summaries and scripts
@@ -17,6 +50,7 @@ istqb-ai-ready/
 ├── CLAUDE.md            rules for AI tools: how to query, cite, and what not to do
 ├── llms.txt             compact index of every file (llms.txt format)
 ├── LEGAL-NOTICE.md      attribution to ISTQB® and conditions of use
+├── LICENSE              MIT (code) · LICENSE-CONTENT.md: CC BY-NC 4.0 (our content) · CITATION.cff
 ├── README.md            this file (English) · README.pt-BR.md (Portuguese)
 ├── syllabus/            SHELL: 1 file per section (86), with frontmatter + our summary + PDF page
 ├── syllabus-text/       FULL TEXT (same paths), generated locally, outside git
@@ -132,4 +166,11 @@ Qualifications Board. The authors and ISTQB® are the source and copyright owner
 <https://istqb.org/certifications/certified-tester-foundation-level-ctfl-v4-0/>. In Brazil: BSTQB,
 <https://bstqb.org.br>. Details and conditions of use in [LEGAL-NOTICE.md](LEGAL-NOTICE.md).
 
-The scripts, summaries and guides in this repository are authored by its maintainers. Non-commercial use.
+## License
+
+- Code (`scripts/`): [MIT](LICENSE).
+- Our written content (guides, summaries, AI rules): [CC BY-NC 4.0](LICENSE-CONTENT.md).
+- The ISTQB® syllabus, its structure, objectives and terminology: © ISTQB®, not covered by either license
+  ([LEGAL-NOTICE.md](LEGAL-NOTICE.md)).
+
+If this base is useful to you, cite it with the [CITATION.cff](CITATION.cff) file ("Cite this repository" on GitHub).

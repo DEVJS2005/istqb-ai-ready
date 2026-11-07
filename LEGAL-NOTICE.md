@@ -42,6 +42,7 @@ Any other use requires prior written approval from ISTQB®.
 - The full section text (`syllabus-text/`) is generated locally and is never committed.
 - The content of `guides/` and the summaries in `data/summaries.yaml` are interpretation and practical
   application written by the maintainers of this repository, not syllabus text.
-- Non-commercial use.
+- Non-commercial use. Our code is under [MIT](LICENSE) and our written content under
+  [CC BY-NC 4.0](LICENSE-CONTENT.md); neither license applies to the ISTQB® syllabus.
 
 When citing content from this base, cite the syllabus section (e.g. "ISTQB CTFL v4.0.1, section 4.2.1").
