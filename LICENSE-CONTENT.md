@@ -19,4 +19,5 @@ any changes.
 - **The ISTQB® syllabus itself**, including its text, section structure and titles, learning
   objectives and terminology, is © International Software Testing Qualifications Board (ISTQB®).
   Neither this license nor the MIT license applies to it. See [LEGAL-NOTICE.md](LEGAL-NOTICE.md).
-- **The code** in `scripts/` is licensed under MIT. See [LICENSE](LICENSE).
+- **The code** in `scripts/` (and `requirements.txt`) is licensed under MIT. See [LICENSE](LICENSE).
+  The MIT license applies only to that code, not to the written content above.
