@@ -1,10 +1,13 @@
-# PDF original do syllabus: NUNCA commitar
-fonte/*.pdf
-# Saidas intermediarias
+# Original syllabus PDF: NEVER commit
+source/*.pdf
+# Intermediate output
 build/
 # Python
 .venv/
 __pycache__/
 *.pyc
-# Texto integral do syllabus gerado localmente a partir do PDF (direitos do ISTQB)
+# Full syllabus text generated locally from the PDF (ISTQB copyright)
+syllabus-text/
+# Legacy names from earlier versions (Portuguese folder names)
+fonte/
 syllabus-texto/

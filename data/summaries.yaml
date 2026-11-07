@@ -1,0 +1,517 @@
+# Summaries written by the maintainers of this repository, in our own words.
+# They are NOT syllabus text. They are a map: for the exact content, read the section
+# given in the official syllabus (ISTQB CTFL v4.0.1).
+#
+# short:   one line, used in the _index.md files and in llms.txt
+# summary: 2 to 4 sentences, used in the shell of each section
+
+"0":
+  short: "Why the syllabus exists, who it is for, K-levels, the exam and how the chapters are laid out."
+  summary: >-
+    Non-examinable introduction. Covers what the document is for, who the Foundation Level certificate targets,
+    the ISTQB career path, the 14 business outcomes (FL-BO1 to BO14), the K1 to K3 cognitive levels and how the six
+    examinable chapters are organised and timed (1135 minutes in total).
+"0.1":
+  short: "Who ISTQB provides the syllabus to, and for what."
+"0.2":
+  short: "Target audience of the Foundation Level certificate."
+"0.3":
+  short: "ISTQB certification paths after Foundation Level."
+"0.4":
+  short: "The 14 business outcomes expected from a certified tester."
+"0.5":
+  short: "Cognitive levels K1, K2 and K3; keywords are always examinable at least at K1."
+"0.6":
+  short: "The exam is built on chapters 1 to 6; introduction and appendices are not examined."
+"0.7":
+  short: "Accreditation of training providers by Member Boards."
+"0.8":
+  short: "Referenced standards (ISO, IEEE) are background reading, not exam material."
+"0.9":
+  short: "Updates and supporting material live on the ISTQB website."
+"0.10":
+  short: "Level of detail: objectives, keywords and core concepts."
+"0.11":
+  short: "How the six chapters are organised and the minimum teaching time for each."
+
+# ---------------------------------------------------------------- Chapter 1
+"1":
+  short: "Fundamentals: what testing is, why it matters, the 7 principles, process, testware, roles and skills."
+  summary: >-
+    The conceptual base for everything else. Defines testing and its objectives, separates it from debugging and from
+    quality assurance, introduces the error → defect → failure chain, the seven principles, the test process activities
+    and their work products (testware), traceability, roles and tester skills.
+"1.1":
+  short: "Testing as a set of activities to find defects and assess quality, covering verification and validation."
+  summary: >-
+    Testing is more than running test cases: it also includes planning, analysis, design and evaluation of work products.
+    It covers verification (does it match the specification?) and validation (does it meet the real need?), can be static
+    or dynamic, and is an intellectual activity, not just a technical one.
+"1.1.1":
+  short: "Typical test objectives and how context shifts them."
+  summary: >-
+    Lists the usual goals: evaluate work products, trigger failures and find defects, reach coverage, lower risk, check
+    requirements and compliance, inform decisions, build confidence and validate. Which goals apply depends on the product,
+    the test level, risks, the lifecycle and the business situation.
+"1.1.2":
+  short: "Testing and debugging are separate activities."
+  summary: >-
+    Testing exposes failures (dynamic) or defects (static); debugging locates the cause and removes it. A fix is followed
+    by confirmation testing and, when needed, regression testing. Defects found statically need no reproduction or diagnosis.
+"1.2":
+  short: "Testing as quality control, which any stakeholder can contribute to."
+  summary: >-
+    Testing is a form of quality control that helps meet goals within scope, time, quality and budget limits.
+    Its contribution to project success is not limited to the test team.
+"1.2.1":
+  short: "How testing contributes to project success."
+  summary: >-
+    Testing finds defects cost-effectively, measures quality throughout the lifecycle (feeding decisions such as release),
+    stands in for users inside the project, and can be required by contract, law or regulation.
+"1.2.2":
+  short: "Testing (product-focused control) vs QA (process-focused assurance)."
+  summary: >-
+    Testing is product-oriented and corrective; quality assurance (QA) is process-oriented and preventive, and everyone
+    shares responsibility for it. Test results serve testing (to fix defects) and QA (as feedback on the processes).
+"1.2.3":
+  short: "The error → defect → failure chain and the idea of root cause."
+  summary: >-
+    People make errors, which introduce defects, which may lead to failures when executed. Failures can also come from
+    the environment. A root cause is the underlying reason for a problem; root cause analysis finds it so similar problems
+    can be prevented.
+"1.3":
+  short: "The seven testing principles."
+  summary: >-
+    Testing reveals defects but cannot prove their absence; exhaustive testing is not feasible; testing early saves money;
+    defects tend to cluster; repeated tests lose power; testing depends on context; and the absence-of-defects fallacy
+    (verification alone is not enough, validation is needed too).
+"1.4":
+  short: "The test process: activities, testware and roles, tailored to the context."
+  summary: >-
+    There are common groups of activities that make up a test process, tailored to each situation during planning.
+    The subsections cover activities, context, testware, traceability and roles.
+"1.4.1":
+  short: "The seven test activities, from planning to completion."
+  summary: >-
+    Planning; monitoring and control; analysis ("what to test"); design ("how to test"); implementation; execution;
+    and completion. They look sequential but are often iterative or overlapping, and must be adapted to the system and project.
+"1.4.2":
+  short: "Context factors that shape the test process."
+  summary: >-
+    Stakeholders, team, business domain, technical factors, project constraints, organisation, lifecycle and tools all
+    influence the strategy, techniques, automation, required coverage, testware detail and reporting.
+"1.4.3":
+  short: "Work products (testware) produced by each test activity."
+  summary: >-
+    Maps each activity to its typical artifacts: plan and risk register in planning; progress reports in monitoring;
+    test conditions in analysis; test cases and charters in design; procedures, scripts and data in implementation;
+    logs and defect reports in execution; and the completion report at the end.
+"1.4.4":
+  short: "Traceability between test basis, testware, results and defects."
+  summary: >-
+    Keeping traceability lets you assess coverage (e.g. requirements covered by test cases), residual risk and the impact of
+    changes, supports audits and makes reports easier to understand.
+"1.4.5":
+  short: "The two main roles: test management and testing."
+  summary: >-
+    The test management role owns planning, monitoring, control and completion. The testing role owns the technical side:
+    analysis, design, implementation and execution. One person may hold both, and who holds each depends on the context.
+"1.5":
+  short: "Essential tester skills and good practices."
+  summary: >-
+    Good testers need specific skills, work well in a team and can operate at different degrees of independence.
+"1.5.1":
+  short: "Generic skills relevant to testing, with emphasis on communication."
+  summary: >-
+    Testing knowledge, attention to detail and curiosity, communication and listening, analytical and critical thinking,
+    technical and domain knowledge. Since testers often deliver bad news, they should report defects constructively and be
+    aware of confirmation bias.
+"1.5.2":
+  short: "Whole team approach."
+  summary: >-
+    A practice from XP in which any capable member can take any task and quality is everyone's job. It improves communication
+    and synergy, with testers working alongside business people and developers. It may not fit contexts that demand high
+    independence, such as safety-critical systems.
+"1.5.3":
+  short: "Degrees of test independence, with benefits and drawbacks."
+  summary: >-
+    Ranges from none (the author) to very high (outside the organisation); mixing several levels usually works best.
+    Independence brings different biases and viewpoints, but can isolate testers, create friction, weaken developers'
+    sense of ownership and turn testing into a bottleneck.
+
+# ---------------------------------------------------------------- Chapter 2
+"2":
+  short: "Testing across the lifecycle: SDLC models, test-first, DevOps, shift left, levels, types and maintenance."
+  summary: >-
+    Shows how testing adapts to the development model, the approaches that use tests to drive development (TDD, ATDD, BDD),
+    DevOps, shift left and retrospectives. Defines the five test levels and four test types, separates confirmation from
+    regression testing and covers maintenance testing.
+"2.1":
+  short: "Lifecycle models (sequential, iterative, incremental) and agile methods."
+  summary: >-
+    An SDLC model describes how development phases and activities relate. Examples: waterfall and V-model (sequential),
+    spiral and prototyping (iterative), Unified Process (incremental), plus practices such as Scrum, Kanban, XP, TDD, ATDD and BDD.
+"2.1.1":
+  short: "How the choice of SDLC changes testing."
+  summary: >-
+    The SDLC drives the scope and timing of activities, documentation depth, techniques, automation and the tester's role.
+    In sequential models dynamic testing comes late; iterative ones test every iteration with heavy regression; agile favours
+    light documentation, automation and experience-based techniques.
+"2.1.2":
+  short: "Good testing practices that hold for any SDLC."
+  summary: >-
+    Each development activity has a matching test activity; each test level has its own objectives; test analysis and design
+    start in the matching development phase; and testers review drafts as soon as they exist.
+"2.1.3":
+  short: "TDD, ATDD and BDD: tests written before code steer development."
+  summary: >-
+    TDD steers coding with test cases plus refactoring; ATDD derives tests from acceptance criteria before building;
+    BDD describes behaviour in plain language (Given/When/Then) that becomes executable tests. All apply early testing and shift left.
+"2.1.4":
+  short: "DevOps and its benefits and risks for testing."
+  summary: >-
+    DevOps brings development and operations together with CI/CD and a delivery pipeline. Benefits: fast feedback, shift left,
+    stable environments, visibility of non-functional qualities and less manual regression. Risks: setting up the pipeline,
+    maintaining tools and paying for automation. Manual testing from the user's view is still needed.
+"2.1.5":
+  short: "Shift left: test earlier, without dropping later testing."
+  summary: >-
+    Practices: review specifications with a tester's eye, write tests before code, use CI/CD, run static analysis before
+    dynamic testing and start non-functional testing at component level. It costs more up front, saves later and needs
+    stakeholder buy-in.
+"2.1.6":
+  short: "Retrospectives as a continuous improvement mechanism."
+  summary: >-
+    Meetings at the end of iterations, milestones or projects discuss what to keep, what to improve and how. Outcomes go into
+    the completion report. Benefits: effectiveness, better testware and test basis, team learning and closer dev-test cooperation.
+"2.2":
+  short: "Test levels (when/where) and test types (what)."
+  summary: >-
+    Test levels are groups of activities organised together for a given stage of development. Test types group activities
+    by quality characteristic and can be used at any level.
+"2.2.1":
+  short: "The five levels: component, component integration, system, system integration and acceptance."
+  summary: >-
+    Component (unit) testing isolates parts; component integration testing checks the interfaces between them; system testing
+    looks at the whole, functional and non-functional; system integration testing covers external interfaces; acceptance testing
+    validates readiness for use (UAT, operational, contractual, regulatory, alpha, beta). Levels differ by object, objectives,
+    basis, defects and who is responsible.
+"2.2.2":
+  short: "The four types: functional, non-functional, black-box and white-box."
+  summary: >-
+    Functional covers "what" the system does; non-functional covers "how well", following the ISO/IEC 25010 characteristics
+    (performance, compatibility, usability, reliability, security, maintainability, portability, safety). Black-box derives tests
+    from the specification and white-box from the internal structure. All four apply at every level.
+"2.2.3":
+  short: "Confirmation testing (is the defect fixed?) vs regression testing (did the change break something?)."
+  summary: >-
+    Confirmation re-runs the tests that failed or adds new ones for the fix. Regression looks for side effects in the component,
+    the system or connected systems, guided by impact analysis. Regression suites grow with every delivery and are prime
+    candidates for automation, including in CI.
+"2.3":
+  short: "Maintenance testing: scope and triggers (modification, migration, retirement)."
+  summary: >-
+    Maintenance may be corrective, adaptive or for improvement, planned or urgent (hot fix). Its scope depends on the risk,
+    the size of the system and the size of the change. Triggers are modifications, upgrades or migrations of the environment
+    (including data conversion) and retirement (data archiving, restore and retrieval).
+
+# ---------------------------------------------------------------- Chapter 3
+"3":
+  short: "Static testing: examinable work products, value, difference from dynamic, feedback and the review process."
+  summary: >-
+    Covers testing without running the software: manual reviews and tool-based static analysis. Explains the value of finding
+    defects early, the importance of frequent stakeholder feedback, the activities and roles of a review, review types and
+    success factors.
+"3.1":
+  short: "Static testing basics: reviews and static analysis."
+  summary: >-
+    Static testing evaluates code, specifications and other products without executing them, looking for defects and qualities
+    such as readability and testability. It serves both verification and validation, including user story refinement, and
+    static analysis usually runs inside CI.
+"3.1.1":
+  short: "Work products that can (or cannot) go through static testing."
+  summary: >-
+    Almost anything can be reviewed: requirements, code, test plans and cases, backlog items, contracts, models. Static analysis
+    needs a formal structure (code, models). Items hard to interpret, or that must not be analysed (such as third-party
+    executables), are left out.
+"3.1.2":
+  short: "Why static testing pays off."
+  summary: >-
+    It finds defects in the earliest phases, including some dynamic testing cannot reach (unreachable code, defects in documents).
+    It builds shared understanding among stakeholders and, despite its cost, lowers total project cost.
+"3.1.3":
+  short: "Static vs dynamic testing and the defects each finds best."
+  summary: >-
+    Static testing finds defects directly, reaches rarely executed paths, works on non-executable products and measures qualities
+    such as maintainability. Dynamic testing provokes failures and measures things like performance. Static is cheaper for defects
+    in requirements, design, code, standards, interfaces, some security weaknesses and coverage gaps.
+"3.2":
+  short: "Stakeholder feedback and the review process."
+  summary: >-
+    Brings together the benefits of early, frequent feedback and the building blocks of a review: activities, roles, types and
+    success factors.
+"3.2.1":
+  short: "Benefits of early and frequent stakeholder feedback."
+  summary: >-
+    It surfaces quality problems early, avoids misunderstandings about requirements and helps the team focus on what delivers most
+    value. Without it, the risk is rework, delays and even project failure.
+"3.2.2":
+  short: "The five activities of the review process (ISO/IEC 20246)."
+  summary: >-
+    Planning (scope, exit criteria, effort); review initiation (everyone ready and with access); individual review (anomalies,
+    recommendations and questions); communication and analysis (decide the status of each anomaly); and fixing and reporting.
+    The more formal the review, the more tasks are performed.
+"3.2.3":
+  short: "Review roles: manager, author, moderator, scribe, reviewer and review leader."
+  summary: >-
+    The manager decides what to review and supplies resources; the author creates and fixes; the moderator (facilitator) runs the
+    meetings; the scribe records anomalies and decisions; reviewers review; and the review leader owns the review as a whole.
+"3.2.4":
+  short: "Review types: informal, walkthrough, technical review and inspection."
+  summary: >-
+    Formality depends on the SDLC, maturity, criticality, legal requirements and the need for an audit trail. Informal reviews
+    follow no defined process; walkthroughs are led by the author; technical reviews aim for technical consensus and are moderated;
+    inspections are the most formal, collect metrics and do not allow the author to be leader or scribe.
+"3.2.5":
+  short: "Success factors for reviews."
+  summary: >-
+    Clear goals and measurable exit criteria (never evaluating people), the right review type, small chunks, feedback to authors,
+    preparation time, management support, a review culture, training and facilitated meetings.
+
+# ---------------------------------------------------------------- Chapter 4
+"4":
+  short: "Test techniques: black-box, white-box, experience-based and collaborative approaches."
+  summary: >-
+    The largest chapter and the one with the most application objectives (K3). Classifies techniques and covers equivalence
+    partitioning, boundary value analysis, decision tables and state transitions, statement and branch coverage, error guessing,
+    exploratory testing, checklist-based testing, collaborative user stories, acceptance criteria and ATDD.
+"4.1":
+  short: "Overview and classification of test techniques."
+  summary: >-
+    Techniques help define test conditions, coverage items and data in a systematic way. Black-box starts from specified behaviour
+    and is independent of the implementation; white-box starts from the internal structure; experience-based relies on the
+    tester's knowledge and complements the other two.
+"4.2":
+  short: "Black-box techniques: EP, BVA, decision tables and state transitions."
+  summary: >-
+    Introduces the four most common specification-based techniques, detailed in the subsections.
+"4.2.1":
+  short: "Equivalence partitioning and Each Choice coverage."
+  summary: >-
+    Splits data into groups the test object should handle the same way, so one value per group is enough. Groups must not overlap
+    or be empty, and can be valid or invalid. Coverage = partitions exercised ÷ partitions identified (invalid ones included).
+    With several sets of partitions, the simplest criterion is Each Choice.
+"4.2.2":
+  short: "Boundary value analysis in its 2-value and 3-value forms."
+  summary: >-
+    Only for ordered partitions; it targets the edges, where developers slip most often. In 2-value BVA each boundary yields two
+    items (the boundary and the nearest value in the adjacent partition); in 3-value BVA, three (the boundary and both neighbours).
+    The 3-value form is stricter and catches defects the 2-value form misses.
+"4.2.3":
+  short: "Decision table testing for combinations of conditions."
+  summary: >-
+    Rows hold conditions and actions; columns hold rules (combinations). Uses T/F/–/N/A for conditions and X for actions, in
+    limited-entry or extended-entry tables. Coverage items are the feasible columns. It is systematic and exposes gaps in
+    requirements, but grows exponentially; minimising the table or prioritising by risk keeps it manageable.
+"4.2.4":
+  short: "State transition testing and its three coverage criteria."
+  summary: >-
+    Models states, events, guard conditions and actions (state diagram or state table, which also shows invalid transitions).
+    Criteria: all states; valid transitions (0-switch, the most used); and all transitions (valid and invalid, one invalid per case
+    to avoid masking). All transitions is the minimum for critical software.
+"4.3":
+  short: "White-box techniques: statement and branch testing."
+  summary: >-
+    Focuses on the two simplest and most popular code-based techniques. More rigorous techniques, or ones not based on code,
+    are out of scope.
+"4.3.1":
+  short: "Statement testing and statement coverage."
+  summary: >-
+    Coverage items are executable statements. 100% means every statement ran at least once, but it does not catch data-dependent
+    defects (e.g. division by zero) nor guarantee that all decision logic was exercised.
+"4.3.2":
+  short: "Branch testing and branch coverage; branch subsumes statement."
+  summary: >-
+    A branch is a transfer of control in the control flow graph, conditional or unconditional, and branches are the coverage items.
+    100% branch implies 100% statement (not the other way round), but does not guarantee specific paths are covered.
+"4.3.3":
+  short: "Value and limits of white-box testing."
+  summary: >-
+    It takes the whole implementation into account, even with a vague specification, and gives an objective code coverage measure
+    that black-box testing cannot. It also works in static testing (dry runs). It cannot detect defects of omission, i.e.
+    requirements that were never implemented.
+"4.4":
+  short: "Experience-based techniques: error guessing, exploratory and checklist-based."
+  summary: >-
+    Introduces the three techniques that rely on the tester's knowledge and experience.
+"4.4.1":
+  short: "Error guessing and fault attacks."
+  summary: >-
+    Anticipates errors, defects and failures from the application's history, typical developer mistakes and failures in similar
+    systems, across categories such as input, output, logic, computation, interfaces and data. Fault attacks formalise this with
+    a list of likely problems to provoke.
+"4.4.2":
+  short: "Exploratory and session-based testing (charter, time box, debriefing)."
+  summary: >-
+    The tester designs, runs and evaluates tests at the same time as learning about the object. The session-based form uses a time
+    box, a test charter and a debriefing. Useful with weak specifications or little time, and as a complement. It works best with
+    experienced testers and can combine other techniques.
+"4.4.3":
+  short: "Checklist-based testing."
+  summary: >-
+    Tests cover the conditions in a checklist built from experience and knowledge of users, usually as individually checkable
+    questions. It should be updated from defect analysis, kept short and free of items that can be automated. It brings consistency
+    at the cost of some variability.
+"4.5":
+  short: "Collaborative approaches focused on avoiding defects."
+  summary: >-
+    While the earlier techniques aim to detect defects, collaboration-based approaches also try to avoid them through communication.
+"4.5.1":
+  short: "Collaborative user story writing: the 3 C's and INVEST."
+  summary: >-
+    A user story is Card, Conversation and Confirmation (acceptance criteria), in the form "As a [role], I want [goal], so that
+    [value]". It is written together from the business, development and testing viewpoints. Good stories follow INVEST.
+    If nobody knows how to test it, the story is probably unclear.
+"4.5.2":
+  short: "Acceptance criteria: purpose and formats (scenario or rule)."
+  summary: >-
+    They are the conditions for a stakeholder to accept the story and act as test conditions. They set scope, build consensus,
+    describe positive and negative scenarios and support estimation. The most common formats are scenario-oriented
+    (Given/When/Then) and rule-oriented (checklist or input-output table).
+"4.5.3":
+  short: "ATDD: test cases from acceptance criteria, before implementation."
+  summary: >-
+    Starts with a specification workshop; the team writes the tests, seen as examples. The usual order is positive cases, then
+    negative, then non-functional. They should cover the whole story without going beyond it or overlapping, and once automated
+    they become executable requirements.
+
+# ---------------------------------------------------------------- Chapter 5
+"5":
+  short: "Test management: planning, estimation, prioritisation, risk, monitoring, reports, configuration and defects."
+  summary: >-
+    The managerial side: test plan content, the tester's input to agile planning, entry and exit criteria, four estimation
+    techniques, prioritisation, pyramid and quadrants, project and product risk management, metrics and reports,
+    configuration management and the defect report.
+"5.1":
+  short: "Test planning and the tools that support it."
+  summary: >-
+    Brings together the test plan, iteration and release planning, entry and exit criteria, estimation, prioritisation,
+    the test pyramid and the testing quadrants.
+"5.1.1":
+  short: "Purpose and typical content of a test plan."
+  summary: >-
+    The plan records the means and schedule, serves as communication and shows alignment with policy and strategy. Typical content:
+    context and scope, assumptions and constraints, stakeholders, communication, risk register, test approach (levels, types,
+    techniques, criteria, metrics, data, environment) and budget and schedule. Reference: ISO/IEC/IEEE 29119-3.
+"5.1.2":
+  short: "The tester's contribution to release and iteration planning."
+  summary: >-
+    In release planning, helps write testable stories and criteria, joins risk analysis, estimates effort and sets the approach.
+    In iteration planning, details story risks, checks testability, breaks stories into test tasks and estimates each one.
+"5.1.3":
+  short: "Entry and exit criteria (Definition of Ready / Definition of Done)."
+  summary: >-
+    Entry criteria are the preconditions to start an activity (resources, testware, initial quality). Exit criteria say when it is
+    done (thoroughness measures such as coverage and open defects, plus yes/no checks). Running out of time or budget can end testing
+    if the risk is accepted. In agile they become DoR and DoD.
+"5.1.4":
+  short: "Four estimation techniques: ratios, extrapolation, Wideband Delphi and three-point."
+  summary: >-
+    Ratios and extrapolation are metrics-based (historical or current project data); Wideband Delphi (and Planning Poker) and
+    three-point are expert-based. In three-point, E = (a + 4m + b) / 6 and SD = (b − a) / 6. Every estimate has assumptions and
+    error, and large tasks should be broken down first.
+"5.1.5":
+  short: "Test case prioritisation: by risk, by coverage and by requirements."
+  summary: >-
+    The common strategies order execution by risk, by coverage (including additional coverage) or by requirement priority.
+    Dependencies between tests and resource availability may force a different order.
+"5.1.6":
+  short: "Test pyramid."
+  summary: >-
+    A layered model: at the bottom, many small, isolated, fast tests; at the top, a few slow, broad end-to-end tests. It guides
+    automation and effort allocation. The number and names of the layers vary (e.g. Cohn's unit/service/UI).
+"5.1.7":
+  short: "Marick's testing quadrants (Q1 to Q4)."
+  summary: >-
+    Crosses "business- or technology-facing" with "supports the team or critiques the product". Q1: component and integration,
+    automated. Q2: functional tests, examples, stories and API. Q3: exploratory, usability and UAT, mostly manual. Q4: smoke and
+    non-functional tests, mostly automated.
+"5.2":
+  short: "Risk management and risk-based testing."
+  summary: >-
+    Risk management has two main activities: analysis (identification and assessment) and control (mitigation and monitoring).
+    Selecting, prioritising and managing testing on that basis is risk-based testing.
+"5.2.1":
+  short: "Risk, likelihood, impact and risk level."
+  summary: >-
+    A risk is a potential event with an adverse effect, described by its likelihood (between 0 and 1) and its impact. Together they
+    give the risk level: the higher it is, the more urgently it should be handled.
+"5.2.2":
+  short: "Project risks vs product risks."
+  summary: >-
+    Project risks come from management (organisation, people, technical, suppliers) and affect schedule, cost and scope. Product
+    risks relate to quality characteristics (ISO 25010) and can cause dissatisfaction, losses, harm to third parties, penalties
+    and even physical harm.
+"5.2.3":
+  short: "Product risk analysis: identification, assessment and use of the results."
+  summary: >-
+    Identifies risks (brainstorming, workshops, interviews, cause-effect diagrams) and assesses them (category, likelihood, impact,
+    level and priority), quantitatively (likelihood × impact) or qualitatively (risk matrix). The results set the scope, levels,
+    types, techniques, coverage, effort and priority of testing.
+"5.2.4":
+  short: "Product risk control: mitigation, monitoring and responses."
+  summary: >-
+    Possible responses are mitigating through testing, accepting, transferring or having a contingency plan. To mitigate through
+    testing: pick suitable testers, adjust independence, run reviews and static analysis, choose fitting techniques and coverage,
+    target the affected characteristics and test dynamically including regression. Monitoring confirms the effect and spots new risks.
+"5.3":
+  short: "Test monitoring, test control and test completion."
+  summary: >-
+    Monitoring gathers information on progress and exit criteria. Control issues corrective directives (reprioritise, re-check
+    criteria, adjust the schedule, add resources). Completion consolidates experience and testware at project milestones.
+"5.3.1":
+  short: "Metrics used in testing."
+  summary: >-
+    Categories: project progress, test progress, product quality (e.g. MTTF), defects (e.g. density, detection percentage),
+    residual risk, coverage and cost, including the cost of quality.
+"5.3.2":
+  short: "Progress report vs completion report: purpose, content and audience."
+  summary: >-
+    The progress report is periodic and supports control: period, progress, impediments, metrics, risks and next period.
+    The completion report comes at the end of a level, cycle or project: summary, evaluation against the plan, deviations,
+    unmitigated risks, open defects and lessons learned. The audience sets the formality and frequency.
+"5.3.3":
+  short: "Ways to communicate test status."
+  summary: >-
+    Face-to-face talk, dashboards (CI/CD, task boards, burn-down), electronic channels, online documentation and formal reports.
+    Distributed teams tend to need more formality, and the information should be tailored to each stakeholder.
+"5.4":
+  short: "Configuration management in support of testing."
+  summary: >-
+    Identifies, versions and tracks test configuration items (plans, cases, scripts, results, environments). Approved items become
+    a baseline and change only through formal change control, which makes earlier results reproducible. In DevOps, configuration
+    management is usually automated in the pipeline.
+"5.5":
+  short: "Defect management and the content of a defect report."
+  summary: >-
+    The process takes each anomaly from logging to closure: log, analyse, classify, decide and close. An anomaly may turn out not
+    to be a defect (false positive, change request). The report should allow resolution, quality tracking and process improvement.
+    Typical fields: ID, title, date and author, test object and environment, context, steps to reproduce, expected and actual
+    result, severity, priority, status and references.
+
+# ---------------------------------------------------------------- Chapter 6
+"6":
+  short: "Test tools: categories and the benefits and risks of automation."
+  summary: >-
+    The shortest chapter. Classifies the tools that support testing and lists the benefits and risks of test automation.
+"6.1":
+  short: "Categories of tools that support testing."
+  summary: >-
+    Test management, static testing, test design and implementation, execution and coverage, non-functional testing, DevOps,
+    collaboration, scalability (VMs, containers) and anything else that helps, even a spreadsheet.
+"6.2":
+  short: "Benefits and risks of test automation."
+  summary: >-
+    Benefits: less repetitive work, consistency, objective assessment, better information for management, faster feedback and more
+    time for better tests. Risks: unrealistic expectations, wrong estimates, automating what should stay manual, over-reliance on
+    the tool or vendor, abandoned open-source projects, platform incompatibility and regulatory non-compliance.

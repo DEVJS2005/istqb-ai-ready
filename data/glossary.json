@@ -1,0 +1,3659 @@
+{
+  "source": "ISTQB Certified Tester Foundation Level Syllabus v4.0.1",
+  "official_link": "https://istqb.org/certifications/certified-tester-foundation-level-ctfl-v4-0/",
+  "notice": "Reference metadata. The syllabus text is not reproduced; see the official PDF.",
+  "note": "The syllabus has no definitions of its own: it aligns its terms with the official ISTQB glossary. This file lists only the terms (chapter keywords and index entries), where they appear, and the link to the official definition.",
+  "official_glossary": "https://glossary.istqb.org/",
+  "total": 265,
+  "terms": [
+    {
+      "term": "0-switch coverage",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        42
+      ],
+      "sections": [
+        "4.2.4"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "2-value BVA",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        40
+      ],
+      "sections": [
+        "4.2.2"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "3-value BVA",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        40
+      ],
+      "sections": [
+        "4.2.2"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "absence-of-defect fallacy",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        18
+      ],
+      "sections": [
+        "1.3",
+        "1.4",
+        "1.4.1"
+      ],
+      "approximate_sections": true,
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "acceptance criteria",
+      "keyword_in_chapters": [
+        4
+      ],
+      "index_pages": [
+        20,
+        45
+      ],
+      "sections": [
+        "1.4.3",
+        "4.5.1",
+        "4.5.2"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "acceptance test-driven development",
+      "keyword_in_chapters": [
+        4
+      ],
+      "index_pages": [
+        25,
+        26,
+        46
+      ],
+      "sections": [
+        "2.1",
+        "2.1.3",
+        "4.5.3"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "acceptance testing",
+      "keyword_in_chapters": [
+        2
+      ],
+      "index_pages": [
+        29
+      ],
+      "sections": [
+        "2.2.1"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "action item",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        20
+      ],
+      "sections": [
+        "1.4.3"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "all states coverage",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        42
+      ],
+      "sections": [
+        "4.2.4"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "all transitions coverage",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        42
+      ],
+      "sections": [
+        "4.2.4"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "alpha testing",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        29
+      ],
+      "sections": [
+        "2.2.1"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "anomaly",
+      "keyword_in_chapters": [
+        3
+      ],
+      "index_pages": [
+        35,
+        56
+      ],
+      "sections": [
+        "3.2.2",
+        "5.5"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "author (reviews)",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        36
+      ],
+      "sections": [
+        "3.2.3",
+        "3.2.4"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "baseline",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        56
+      ],
+      "sections": [
+        "5.4"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "behavior-driven development",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        25,
+        26
+      ],
+      "sections": [
+        "2.1",
+        "2.1.3"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "beta testing",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        29
+      ],
+      "sections": [
+        "2.2.1"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "black-box test technique",
+      "keyword_in_chapters": [
+        4
+      ],
+      "index_pages": [
+        39
+      ],
+      "sections": [
+        "4.1",
+        "4.2"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "black-box testing",
+      "keyword_in_chapters": [
+        2
+      ],
+      "index_pages": [
+        30
+      ],
+      "sections": [
+        "2.2.2"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "boundary",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        40
+      ],
+      "sections": [
+        "4.2.2"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "boundary value analysis",
+      "keyword_in_chapters": [
+        4
+      ],
+      "index_pages": [
+        40
+      ],
+      "sections": [
+        "4.2.2"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "branch",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        43
+      ],
+      "sections": [
+        "4.3.1",
+        "4.3.2"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "branch coverage",
+      "keyword_in_chapters": [
+        4
+      ],
+      "index_pages": [
+        43
+      ],
+      "sections": [
+        "4.3.2"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "branch testing",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        43
+      ],
+      "sections": [
+        "4.3.2"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "burn-down chart",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        55
+      ],
+      "sections": [
+        "5.3.3"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "business rule",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        41
+      ],
+      "sections": [
+        "4.2.3"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "change request",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        20
+      ],
+      "sections": [
+        "1.4.3"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "checklist",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        44
+      ],
+      "sections": [
+        "4.4.3"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "checklist-based testing",
+      "keyword_in_chapters": [
+        4
+      ],
+      "index_pages": [
+        44
+      ],
+      "sections": [
+        "4.4.3"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "collaboration",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        45
+      ],
+      "sections": [
+        "4.5",
+        "4.5.1"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "collaboration tool",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        59
+      ],
+      "sections": [
+        "6.1"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "collaboration-based test approach",
+      "keyword_in_chapters": [
+        4
+      ],
+      "index_pages": [
+        45
+      ],
+      "sections": [
+        "4.5"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "communication",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        55
+      ],
+      "sections": [
+        "5.3.3"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "compatibility",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        30
+      ],
+      "sections": [
+        "2.2.2"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "component integration testing",
+      "keyword_in_chapters": [
+        2
+      ],
+      "index_pages": [
+        29
+      ],
+      "sections": [
+        "2.2.1"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "component testing",
+      "keyword_in_chapters": [
+        2
+      ],
+      "index_pages": [
+        29
+      ],
+      "sections": [
+        "2.2.1",
+        "2.2.2"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "conditional branch",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        43
+      ],
+      "sections": [
+        "4.3.2"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "configuration item",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        56
+      ],
+      "sections": [
+        "5.4"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "configuration management",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        56
+      ],
+      "sections": [
+        "5.4"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "confirmation bias",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        22
+      ],
+      "sections": [
+        "1.5.1"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "confirmation testing",
+      "keyword_in_chapters": [
+        2
+      ],
+      "index_pages": [
+        16,
+        30
+      ],
+      "sections": [
+        "1.1.2",
+        "2.2.3"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "containerization tool",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        59
+      ],
+      "sections": [
+        "6.1"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "continuous delivery",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        26
+      ],
+      "sections": [
+        "2.1.4"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "continuous improvement",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        28
+      ],
+      "sections": [
+        "2.1.6"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "continuous integration",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        26
+      ],
+      "sections": [
+        "2.1.4"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "continuous testing",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        19
+      ],
+      "sections": [
+        "1.4.1"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "control directives",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        20
+      ],
+      "sections": [
+        "1.4.3"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "control flow graph",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        43
+      ],
+      "sections": [
+        "4.3.2",
+        "4.3.3"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "coverage",
+      "keyword_in_chapters": [
+        1,
+        4
+      ],
+      "index_pages": [
+        20,
+        40,
+        41,
+        42,
+        43,
+        45
+      ],
+      "sections": [
+        "1.4.2",
+        "1.4.3",
+        "1.4.4",
+        "4.2.1",
+        "4.2.2",
+        "4.2.3",
+        "4.2.4",
+        "4.3",
+        "4.3.1",
+        "4.3.2",
+        "4.3.3",
+        "4.4.3"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "coverage item",
+      "keyword_in_chapters": [
+        4
+      ],
+      "index_pages": [
+        19,
+        20,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "sections": [
+        "1.4.1",
+        "1.4.3",
+        "4.2.1",
+        "4.2.2",
+        "4.2.3",
+        "4.2.4",
+        "4.3.1",
+        "4.3.2",
+        "4.4.2"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "coverage-based prioritization",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        50
+      ],
+      "sections": [
+        "5.1.5"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "debugging",
+      "keyword_in_chapters": [
+        1
+      ],
+      "index_pages": [
+        16
+      ],
+      "sections": [
+        "1.1.2",
+        "1.2.1"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "decision table testing",
+      "keyword_in_chapters": [
+        4
+      ],
+      "index_pages": [
+        41
+      ],
+      "sections": [
+        "4.2.3"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "defect",
+      "keyword_in_chapters": [
+        1
+      ],
+      "index_pages": [
+        17,
+        33,
+        34,
+        56
+      ],
+      "sections": [
+        "1.2.1",
+        "1.2.2",
+        "1.2.3",
+        "1.3",
+        "3.1",
+        "3.1.2",
+        "3.1.3",
+        "5.5"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "defect management",
+      "keyword_in_chapters": [
+        5
+      ],
+      "index_pages": [
+        56
+      ],
+      "sections": [
+        "5.5"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "defect report",
+      "keyword_in_chapters": [
+        5
+      ],
+      "index_pages": [
+        20,
+        36,
+        56
+      ],
+      "sections": [
+        "1.4.3",
+        "3.2.2",
+        "5.5"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "dependency (prioritization)",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        50
+      ],
+      "sections": [
+        "5.1.6"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "DevOps",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        26,
+        56
+      ],
+      "sections": [
+        "2.1.4",
+        "5.4"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "DevOps tool",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        59
+      ],
+      "sections": [
+        "6.1"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "domain-driven design",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        25
+      ],
+      "sections": [
+        "2.1"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "driver",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        20
+      ],
+      "sections": [
+        "1.4.3"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "dynamic testing",
+      "keyword_in_chapters": [
+        3
+      ],
+      "index_pages": [
+        15,
+        34
+      ],
+      "sections": [
+        "1.1",
+        "3.1.2",
+        "3.1.3"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "Each Choice coverage",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        40
+      ],
+      "sections": [
+        "4.2.1"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "early testing",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        18,
+        27,
+        33
+      ],
+      "sections": [
+        "1.3",
+        "2.1.5",
+        "3.1.2"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "entry criteria",
+      "keyword_in_chapters": [
+        5
+      ],
+      "index_pages": [
+        20,
+        49
+      ],
+      "sections": [
+        "1.4.3",
+        "5.1.3"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "equivalence partitioning",
+      "keyword_in_chapters": [
+        4
+      ],
+      "index_pages": [
+        39
+      ],
+      "sections": [
+        "4.2",
+        "4.2.1"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "error",
+      "keyword_in_chapters": [
+        1
+      ],
+      "index_pages": [
+        17
+      ],
+      "sections": [
+        "1.2.3"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "error guessing",
+      "keyword_in_chapters": [
+        4
+      ],
+      "index_pages": [
+        44
+      ],
+      "sections": [
+        "4.4.1"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "estimation",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        49
+      ],
+      "sections": [
+        "5.1.4"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "estimation based on ratios",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        49
+      ],
+      "sections": [
+        "5.1.4"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "executable requirement",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        46
+      ],
+      "sections": [
+        "4.5.3"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "executable statement",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        42
+      ],
+      "sections": [
+        "4.3.1"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "exhaustive testing",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        18
+      ],
+      "sections": [
+        "1.3"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "exit criteria",
+      "keyword_in_chapters": [
+        5
+      ],
+      "index_pages": [
+        20,
+        37,
+        49
+      ],
+      "sections": [
+        "1.4.3",
+        "3.2.5",
+        "5.1.3"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "experience-based test technique",
+      "keyword_in_chapters": [
+        4
+      ],
+      "index_pages": [
+        39,
+        43
+      ],
+      "sections": [
+        "4.1",
+        "4.4"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "exploratory testing",
+      "keyword_in_chapters": [
+        4
+      ],
+      "index_pages": [
+        44
+      ],
+      "sections": [
+        "4.4.2"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "extended-entry decision table",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        41
+      ],
+      "sections": [
+        "4.2.3"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "extrapolation",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        49
+      ],
+      "sections": [
+        "5.1.4"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "extreme programming",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        25
+      ],
+      "sections": [
+        "2.1"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "failure",
+      "keyword_in_chapters": [
+        1
+      ],
+      "index_pages": [
+        17,
+        34
+      ],
+      "sections": [
+        "1.2.3",
+        "1.3",
+        "3.1.3"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "fault attack",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        44
+      ],
+      "sections": [
+        "4.4.1"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "feature-driven development",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        25
+      ],
+      "sections": [
+        "2.1"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "fedback",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        35
+      ],
+      "sections": [
+        "3.1.3",
+        "3.2",
+        "3.2.1",
+        "3.2.2"
+      ],
+      "approximate_sections": true,
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "feedback",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        37
+      ],
+      "sections": [
+        "3.2.5"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "flexibility",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        30
+      ],
+      "sections": [
+        "2.2.2"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "formal review",
+      "keyword_in_chapters": [
+        3
+      ],
+      "index_pages": [
+        36
+      ],
+      "sections": [
+        "3.2.4"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "functional appropriateness",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        29
+      ],
+      "sections": [
+        "2.2.2"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "functional completeness",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        29
+      ],
+      "sections": [
+        "2.2.2"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "functional correctness",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        29
+      ],
+      "sections": [
+        "2.2.2"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "functional testing",
+      "keyword_in_chapters": [
+        2
+      ],
+      "index_pages": [
+        29
+      ],
+      "sections": [
+        "2.2.1",
+        "2.2.2"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "Given/When/Then",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        26,
+        46
+      ],
+      "sections": [
+        "2.1.3",
+        "4.5.2"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "guard condition",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        41
+      ],
+      "sections": [
+        "4.2.4"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "harm",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        52
+      ],
+      "sections": [
+        "5.2.1"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "hot fix",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        31
+      ],
+      "sections": [
+        "2.3"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "impact",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        52
+      ],
+      "sections": [
+        "5.2.1",
+        "5.2.2",
+        "5.2.3"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "impact analysis",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        31
+      ],
+      "sections": [
+        "2.2.3",
+        "2.3"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "incremental development model",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        25
+      ],
+      "sections": [
+        "2.1",
+        "2.1.1"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "independence of testing",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        22
+      ],
+      "sections": [
+        "1.5.3"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "independent test team",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        29
+      ],
+      "sections": [
+        "2.2.1"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "informal review",
+      "keyword_in_chapters": [
+        3
+      ],
+      "index_pages": [
+        36
+      ],
+      "sections": [
+        "3.2.4"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "inspection",
+      "keyword_in_chapters": [
+        3
+      ],
+      "index_pages": [
+        37
+      ],
+      "sections": [
+        "3.2.4"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "integration testing",
+      "keyword_in_chapters": [
+        2
+      ],
+      "index_pages": [
+        29
+      ],
+      "sections": [
+        "2.2.1"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "interaction capability",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        30
+      ],
+      "sections": [
+        "2.2.2"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "invalid partition",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        40
+      ],
+      "sections": [
+        "4.2.1"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "INVEST",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        45
+      ],
+      "sections": [
+        "4.5.1"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "iteration planning",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        48
+      ],
+      "sections": [
+        "5.1.2"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "iterative development model",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        25
+      ],
+      "sections": [
+        "2.1",
+        "2.1.1"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "Kanban",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        25
+      ],
+      "sections": [
+        "2.1"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "Lean IT",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        25
+      ],
+      "sections": [
+        "2.1"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "lessons learned",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        20
+      ],
+      "sections": [
+        "1.4.3"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "likelihood",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        52
+      ],
+      "sections": [
+        "5.2",
+        "5.2.1",
+        "5.2.3"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "limited-entry decision table",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        41
+      ],
+      "sections": [
+        "4.2.3"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "maintainability",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        30
+      ],
+      "sections": [
+        "2.2.2"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "maintenance testing",
+      "keyword_in_chapters": [
+        2
+      ],
+      "index_pages": [
+        31
+      ],
+      "sections": [
+        "2.3"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "management tool",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        59
+      ],
+      "sections": [
+        "6.1"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "manager (reviews)",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        36
+      ],
+      "sections": [
+        "3.2.3"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "metric",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        54
+      ],
+      "sections": [
+        "5.3.1",
+        "5.3.2"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "mistake",
+      "keyword_in_chapters": [],
+      "index_pages": [],
+      "sections": [],
+      "see": "error",
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "non-functional testing",
+      "keyword_in_chapters": [
+        2
+      ],
+      "index_pages": [
+        27,
+        29
+      ],
+      "sections": [
+        "2.1.5",
+        "2.2.1",
+        "2.2.2"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "non-functional testing tool",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        59
+      ],
+      "sections": [
+        "6.1"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "operational acceptance testing",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        29
+      ],
+      "sections": [
+        "2.2.1"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "pair testing",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        19
+      ],
+      "sections": [
+        "1.4.1"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "Pareto principle",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        18
+      ],
+      "sections": [
+        "1.3"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "performance efficiency",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        30
+      ],
+      "sections": [
+        "2.2.2"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "planning poker",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        50
+      ],
+      "sections": [
+        "5.1.4"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "portability",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        30
+      ],
+      "sections": [
+        "2.2.2"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "prioritization",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        50
+      ],
+      "sections": [
+        "5.1.5"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "product risk",
+      "keyword_in_chapters": [
+        5
+      ],
+      "index_pages": [
+        52
+      ],
+      "sections": [
+        "5.2.2",
+        "5.2.3"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "project risk",
+      "keyword_in_chapters": [
+        5
+      ],
+      "index_pages": [
+        52
+      ],
+      "sections": [
+        "5.2.2"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "prototyping",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        25
+      ],
+      "sections": [
+        "2.1"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "quality",
+      "keyword_in_chapters": [
+        1
+      ],
+      "index_pages": [
+        15,
+        16
+      ],
+      "sections": [
+        "1.1",
+        "1.1.1",
+        "1.2",
+        "1.2.1"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "quality assurance",
+      "keyword_in_chapters": [
+        1
+      ],
+      "index_pages": [
+        17
+      ],
+      "sections": [
+        "1.2.2"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "quality characteristic",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        34
+      ],
+      "sections": [
+        "3.1.3"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "quality control",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        16,
+        17
+      ],
+      "sections": [
+        "1.2",
+        "1.2.2"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "regression testing",
+      "keyword_in_chapters": [
+        2
+      ],
+      "index_pages": [
+        16,
+        30
+      ],
+      "sections": [
+        "1.1.2",
+        "2.2.3"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "release planning",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        48
+      ],
+      "sections": [
+        "5.1.2"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "reliability",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        30
+      ],
+      "sections": [
+        "2.2.2"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "reporting",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        54
+      ],
+      "sections": [
+        "5.3.2"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "requirements-based prioritization",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        50
+      ],
+      "sections": [
+        "5.1.5"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "retrospective",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        28
+      ],
+      "sections": [
+        "2.1.6"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "review",
+      "keyword_in_chapters": [
+        3
+      ],
+      "index_pages": [
+        33
+      ],
+      "sections": [
+        "3.1",
+        "3.1.1",
+        "3.1.2"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "review leader",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        36
+      ],
+      "sections": [
+        "3.2.3",
+        "3.2.4"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "review process",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        35
+      ],
+      "sections": [
+        "3.2",
+        "3.2.2"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "review techniques",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        33
+      ],
+      "sections": [
+        "3.1"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "reviewer",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        36
+      ],
+      "sections": [
+        "3.2.2",
+        "3.2.3",
+        "3.2.4"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "risk",
+      "keyword_in_chapters": [
+        5
+      ],
+      "index_pages": [
+        15,
+        52,
+        55
+      ],
+      "sections": [
+        "1.1",
+        "1.1.1",
+        "5.2",
+        "5.2.1",
+        "5.2.2",
+        "5.2.3",
+        "5.3.2"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "risk analysis",
+      "keyword_in_chapters": [
+        5
+      ],
+      "index_pages": [
+        52
+      ],
+      "sections": [
+        "5.2",
+        "5.2.3"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "risk assessment",
+      "keyword_in_chapters": [
+        5
+      ],
+      "index_pages": [
+        52
+      ],
+      "sections": [
+        "5.2",
+        "5.2.3"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "risk control",
+      "keyword_in_chapters": [
+        5
+      ],
+      "index_pages": [
+        53
+      ],
+      "sections": [
+        "5.2.4"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "risk identification",
+      "keyword_in_chapters": [
+        5
+      ],
+      "index_pages": [
+        52
+      ],
+      "sections": [
+        "5.2",
+        "5.2.3"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "risk impact",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        52
+      ],
+      "sections": [
+        "5.2.1",
+        "5.2.3"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "risk level",
+      "keyword_in_chapters": [
+        5
+      ],
+      "index_pages": [
+        52
+      ],
+      "sections": [
+        "5.2.1",
+        "5.2.3"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "risk likelihood",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        52
+      ],
+      "sections": [
+        "5.2.1",
+        "5.2.3"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "risk management",
+      "keyword_in_chapters": [
+        5
+      ],
+      "index_pages": [
+        51
+      ],
+      "sections": [
+        "5.2"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "risk matrix",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        53
+      ],
+      "sections": [
+        "5.2.3"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "risk mitigation",
+      "keyword_in_chapters": [
+        5
+      ],
+      "index_pages": [
+        53
+      ],
+      "sections": [
+        "5.2.4"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "risk monitoring",
+      "keyword_in_chapters": [
+        5
+      ],
+      "index_pages": [
+        53
+      ],
+      "sections": [
+        "5.2.4"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "risk register",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        20
+      ],
+      "sections": [
+        "1.4.3"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "risk-based prioritization",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        50
+      ],
+      "sections": [
+        "5.1.5"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "risk-based testing",
+      "keyword_in_chapters": [
+        5
+      ],
+      "index_pages": [
+        51
+      ],
+      "sections": [
+        "5.2"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "root cause",
+      "keyword_in_chapters": [
+        1
+      ],
+      "index_pages": [
+        17
+      ],
+      "sections": [
+        "1.2.3"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "safety",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        30
+      ],
+      "sections": [
+        "2.2.2"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "scribe (reviews)",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        36
+      ],
+      "sections": [
+        "3.2.3",
+        "3.2.4"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "Scrum",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        25
+      ],
+      "sections": [
+        "2.1"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "SDLC",
+      "keyword_in_chapters": [],
+      "index_pages": [],
+      "sections": [],
+      "see": "software development lifecycle",
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "security",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        30
+      ],
+      "sections": [
+        "2.2.2"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "sequential development model",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        25
+      ],
+      "sections": [
+        "2.1",
+        "2.1.1"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "service virtualization",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        20
+      ],
+      "sections": [
+        "1.4.3"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "session-based testing",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        44
+      ],
+      "sections": [
+        "4.4.2"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "shift left",
+      "keyword_in_chapters": [
+        2
+      ],
+      "index_pages": [],
+      "sections": [
+        "2.1.2",
+        "2.1.3",
+        "2.1.4",
+        "2.1.5"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "shift-left",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        27
+      ],
+      "sections": [
+        "2.1.4",
+        "2.1.5"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "simulation",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        29
+      ],
+      "sections": [
+        "2.2.1"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "simulator",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        20
+      ],
+      "sections": [
+        "1.4.3"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "skill",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        21
+      ],
+      "sections": [
+        "1.4.5",
+        "1.5",
+        "1.5.1"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "software development lifecycle",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        25
+      ],
+      "sections": [
+        "2.1",
+        "2.1.1",
+        "2.1.2"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "specification",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        30
+      ],
+      "sections": [
+        "2.2.2"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "specification workshop",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        46
+      ],
+      "sections": [
+        "4.5.3"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "spiral model",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        25
+      ],
+      "sections": [
+        "2.1"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "state table",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        41
+      ],
+      "sections": [
+        "4.2.4"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "state transition diagram",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        41
+      ],
+      "sections": [
+        "4.2.2",
+        "4.2.3",
+        "4.2.4"
+      ],
+      "approximate_sections": true,
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "state transition testing",
+      "keyword_in_chapters": [
+        4
+      ],
+      "index_pages": [
+        41
+      ],
+      "sections": [
+        "4.2.4"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "statement",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        42
+      ],
+      "sections": [
+        "4.3",
+        "4.3.1"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "statement coverage",
+      "keyword_in_chapters": [
+        4
+      ],
+      "index_pages": [
+        42
+      ],
+      "sections": [
+        "4.3.1"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "statement testing",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        42
+      ],
+      "sections": [
+        "4.3",
+        "4.3.1"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "static analysis",
+      "keyword_in_chapters": [
+        3
+      ],
+      "index_pages": [
+        27,
+        33
+      ],
+      "sections": [
+        "2.1.4",
+        "2.1.5",
+        "3.1",
+        "3.1.1",
+        "3.1.2"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "static testing",
+      "keyword_in_chapters": [
+        3
+      ],
+      "index_pages": [
+        15,
+        33,
+        43
+      ],
+      "sections": [
+        "1.1",
+        "3.1",
+        "3.1.1",
+        "3.1.2",
+        "4.3.3"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "static testing tool",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        59
+      ],
+      "sections": [
+        "6.1"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "stub",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        20
+      ],
+      "sections": [
+        "1.4.3"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "system integration testing",
+      "keyword_in_chapters": [
+        2
+      ],
+      "index_pages": [
+        29
+      ],
+      "sections": [
+        "2.2.1"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "system testing",
+      "keyword_in_chapters": [
+        2
+      ],
+      "index_pages": [
+        29
+      ],
+      "sections": [
+        "2.2.1"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "technical review",
+      "keyword_in_chapters": [
+        3
+      ],
+      "index_pages": [
+        37
+      ],
+      "sections": [
+        "3.2.4"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "test analysis",
+      "keyword_in_chapters": [
+        1
+      ],
+      "index_pages": [
+        19,
+        26
+      ],
+      "sections": [
+        "1.4.1",
+        "2.1.2"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "test approach",
+      "keyword_in_chapters": [
+        5
+      ],
+      "index_pages": [
+        48
+      ],
+      "sections": [
+        "5.1.1",
+        "5.1.2"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "test automation",
+      "keyword_in_chapters": [
+        6
+      ],
+      "index_pages": [
+        27,
+        59
+      ],
+      "sections": [
+        "2.1.4",
+        "6.2"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "test automation framework",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        46
+      ],
+      "sections": [
+        "4.5.3"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "test basis",
+      "keyword_in_chapters": [
+        1
+      ],
+      "index_pages": [
+        19,
+        20,
+        29
+      ],
+      "sections": [
+        "1.4.1",
+        "1.4.3",
+        "1.4.4",
+        "2.2.1"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "test case",
+      "keyword_in_chapters": [
+        1
+      ],
+      "index_pages": [
+        19,
+        20,
+        50
+      ],
+      "sections": [
+        "1.4.1",
+        "1.4.3",
+        "1.4.4",
+        "5.1.5"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "test case prioritization",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        50
+      ],
+      "sections": [
+        "5.1.5"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "test charter",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        20,
+        44
+      ],
+      "sections": [
+        "1.4.3",
+        "4.4.2"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "test completion",
+      "keyword_in_chapters": [
+        1
+      ],
+      "index_pages": [
+        19,
+        54
+      ],
+      "sections": [
+        "1.4.1",
+        "5.3",
+        "5.3.1",
+        "5.3.2"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "test completion report",
+      "keyword_in_chapters": [
+        5
+      ],
+      "index_pages": [
+        20,
+        28,
+        55
+      ],
+      "sections": [
+        "1.4.3",
+        "1.4.4",
+        "2.1.6",
+        "5.3.2"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "test condition",
+      "keyword_in_chapters": [
+        1
+      ],
+      "index_pages": [
+        19,
+        20,
+        45,
+        46
+      ],
+      "sections": [
+        "1.4.1",
+        "1.4.3",
+        "1.4.4",
+        "4.4.3",
+        "4.5.2"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "test control",
+      "keyword_in_chapters": [
+        1,
+        5
+      ],
+      "index_pages": [
+        19,
+        53
+      ],
+      "sections": [
+        "1.4.1",
+        "5.3"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "test coverage tool",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        59
+      ],
+      "sections": [
+        "6.1"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "test data",
+      "keyword_in_chapters": [
+        1
+      ],
+      "index_pages": [
+        19,
+        20
+      ],
+      "sections": [
+        "1.4.1",
+        "1.4.3"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "test design",
+      "keyword_in_chapters": [
+        1
+      ],
+      "index_pages": [
+        19,
+        26
+      ],
+      "sections": [
+        "1.4.1"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "test design tool",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        59
+      ],
+      "sections": [
+        "6.1",
+        "6.2"
+      ],
+      "approximate_sections": true,
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "test effort",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        49
+      ],
+      "sections": [
+        "5.1.2",
+        "5.1.4"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "test environment",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        19,
+        20
+      ],
+      "sections": [
+        "1.4.1",
+        "1.4.3"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "test execution",
+      "keyword_in_chapters": [
+        1
+      ],
+      "index_pages": [
+        19
+      ],
+      "sections": [
+        "1.4.1"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "test execution schedule",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        19,
+        20
+      ],
+      "sections": [
+        "1.4.1",
+        "1.4.3"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "test execution tool",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        59
+      ],
+      "sections": [
+        "6.1",
+        "6.2"
+      ],
+      "approximate_sections": true,
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "test harness",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        29
+      ],
+      "sections": [
+        "2.2.1"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "test implementation",
+      "keyword_in_chapters": [
+        1
+      ],
+      "index_pages": [
+        19
+      ],
+      "sections": [
+        "1.4.1"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "test implementation tool",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        59
+      ],
+      "sections": [
+        "6.1"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "test level",
+      "keyword_in_chapters": [
+        2
+      ],
+      "index_pages": [
+        25,
+        28
+      ],
+      "sections": [
+        "2.1.1",
+        "2.1.2",
+        "2.1.5",
+        "2.2",
+        "2.2.1"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "test log",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        20
+      ],
+      "sections": [
+        "1.4.3"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "test management role",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        21
+      ],
+      "sections": [
+        "1.4.5"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "test metric",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        54
+      ],
+      "sections": [
+        "5.3.1",
+        "5.3.2"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "test monitoring",
+      "keyword_in_chapters": [
+        1,
+        5
+      ],
+      "index_pages": [
+        19,
+        53
+      ],
+      "sections": [
+        "1.4.1",
+        "5.3"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "test object",
+      "keyword_in_chapters": [
+        1,
+        2
+      ],
+      "index_pages": [
+        15,
+        19,
+        29
+      ],
+      "sections": [
+        "1.1",
+        "1.1.1",
+        "1.4.1",
+        "1.4.2",
+        "2.2.1",
+        "2.2.2"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "test objective",
+      "keyword_in_chapters": [
+        1
+      ],
+      "index_pages": [
+        15,
+        25,
+        48
+      ],
+      "sections": [
+        "1.1.1",
+        "2.1.2",
+        "5.1.1"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "test plan",
+      "keyword_in_chapters": [
+        5
+      ],
+      "index_pages": [
+        20,
+        48
+      ],
+      "sections": [
+        "1.4.3",
+        "5.1.1",
+        "5.1.2"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "test planning",
+      "keyword_in_chapters": [
+        1,
+        5
+      ],
+      "index_pages": [
+        18,
+        48
+      ],
+      "sections": [
+        "1.4",
+        "1.4.1",
+        "5.1",
+        "5.1.1"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "test policy",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        48
+      ],
+      "sections": [
+        "5.1.1"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "test procedure",
+      "keyword_in_chapters": [
+        1
+      ],
+      "index_pages": [
+        19,
+        20,
+        50
+      ],
+      "sections": [
+        "1.4.1",
+        "1.4.3",
+        "5.1.5"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "test process",
+      "keyword_in_chapters": [
+        1
+      ],
+      "index_pages": [
+        18,
+        19
+      ],
+      "sections": [
+        "1.4",
+        "1.4.1",
+        "1.4.2"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "test progress report",
+      "keyword_in_chapters": [
+        5
+      ],
+      "index_pages": [
+        20,
+        54
+      ],
+      "sections": [
+        "1.4.3",
+        "1.4.4",
+        "5.3.2"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "test pyramid",
+      "keyword_in_chapters": [
+        5
+      ],
+      "index_pages": [
+        50
+      ],
+      "sections": [
+        "5.1.6"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "test report",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        54
+      ],
+      "sections": [
+        "5.3.2"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "test result",
+      "keyword_in_chapters": [
+        1
+      ],
+      "index_pages": [
+        19,
+        56
+      ],
+      "sections": [
+        "1.4.1",
+        "5.4"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "test schedule",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        20
+      ],
+      "sections": [
+        "1.4.3"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "test script",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        19,
+        20
+      ],
+      "sections": [
+        "1.4.1",
+        "1.4.3"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "test status",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        55
+      ],
+      "sections": [
+        "5.3.2",
+        "5.3.3"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "test strategy",
+      "keyword_in_chapters": [
+        5
+      ],
+      "index_pages": [
+        20,
+        48
+      ],
+      "sections": [
+        "1.4.2",
+        "5.1.1"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "test suite",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        20,
+        50
+      ],
+      "sections": [
+        "1.4.3",
+        "5.1.5"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "test technique",
+      "keyword_in_chapters": [
+        4
+      ],
+      "index_pages": [
+        39
+      ],
+      "sections": [
+        "4.1",
+        "4.2",
+        "4.2.1"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "test tool",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        59
+      ],
+      "sections": [
+        "6.1",
+        "6.2"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "test type",
+      "keyword_in_chapters": [
+        2
+      ],
+      "index_pages": [
+        29
+      ],
+      "sections": [
+        "2.2.2"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "test-driven development",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        25,
+        26
+      ],
+      "sections": [
+        "2.1",
+        "2.1.3"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "testability",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        19
+      ],
+      "sections": [
+        "1.4.1"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "testing",
+      "keyword_in_chapters": [
+        1
+      ],
+      "index_pages": [
+        15,
+        16
+      ],
+      "sections": [
+        "1.1",
+        "1.1.2",
+        "1.2",
+        "1.2.1"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "testing quadrants",
+      "keyword_in_chapters": [
+        5
+      ],
+      "index_pages": [
+        51
+      ],
+      "sections": [
+        "5.1.7"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "testing role",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        21
+      ],
+      "sections": [
+        "1.4.5"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "testware",
+      "keyword_in_chapters": [
+        1
+      ],
+      "index_pages": [
+        19,
+        20
+      ],
+      "sections": [
+        "1.4.1",
+        "1.4.2",
+        "1.4.3",
+        "1.4.4"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "three-point estimation",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        50
+      ],
+      "sections": [
+        "5.1.4"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "traceability",
+      "keyword_in_chapters": [
+        1
+      ],
+      "index_pages": [
+        20
+      ],
+      "sections": [
+        "1.4.4"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "transition",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        41
+      ],
+      "sections": [
+        "4.2.4"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "unconditional branch",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        43
+      ],
+      "sections": [
+        "4.3.1",
+        "4.3.2",
+        "4.3.3",
+        "4.4",
+        "4.4.1"
+      ],
+      "approximate_sections": true,
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "Unified Process",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        25
+      ],
+      "sections": [
+        "2.1"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "unit test framework",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        29
+      ],
+      "sections": [
+        "2.2.1"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "usability",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        30
+      ],
+      "sections": [
+        "2.2.2"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "user acceptance testing",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        29
+      ],
+      "sections": [
+        "2.2.1"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "user story",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        45
+      ],
+      "sections": [
+        "4.5.1",
+        "4.5.2"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "V model",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        25
+      ],
+      "sections": [
+        "2.1"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "valid partition",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        40
+      ],
+      "sections": [
+        "4.2.1"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "valid transitions coverage",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        42
+      ],
+      "sections": [
+        "4.2.4"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "validation",
+      "keyword_in_chapters": [
+        1
+      ],
+      "index_pages": [
+        15,
+        33
+      ],
+      "sections": [
+        "1.1",
+        "3.1"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "verification",
+      "keyword_in_chapters": [
+        1
+      ],
+      "index_pages": [
+        15,
+        33
+      ],
+      "sections": [
+        "1.1",
+        "3.1"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "virtual machine",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        59
+      ],
+      "sections": [
+        "6.1"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "walkthrough",
+      "keyword_in_chapters": [
+        3
+      ],
+      "index_pages": [
+        36
+      ],
+      "sections": [
+        "3.2.4"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "waterfall model",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        25
+      ],
+      "sections": [
+        "2.1"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "white-box test technique",
+      "keyword_in_chapters": [
+        4
+      ],
+      "index_pages": [
+        39,
+        42
+      ],
+      "sections": [
+        "4.1",
+        "4.3"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "white-box testing",
+      "keyword_in_chapters": [
+        2
+      ],
+      "index_pages": [
+        30
+      ],
+      "sections": [
+        "2.2.2"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "whole team approach",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        22
+      ],
+      "sections": [
+        "1.5.2"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    },
+    {
+      "term": "Wideband Delphi",
+      "keyword_in_chapters": [],
+      "index_pages": [
+        50
+      ],
+      "sections": [
+        "5.1.4"
+      ],
+      "definition": null,
+      "official_glossary": "https://glossary.istqb.org/"
+    }
+  ]
+}

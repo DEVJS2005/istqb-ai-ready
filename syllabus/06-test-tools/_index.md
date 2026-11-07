@@ -1,46 +1,46 @@
 ---
-capitulo: 6
-secao: "6"
-titulo: "Test Tools"
-objetivos: ["FL-6.1.1", "FL-6.2.1"]
-nivel_k: "K2"
+chapter: 6
+section: "6"
+title: "Test Tools"
+objectives: ["FL-6.1.1", "FL-6.2.1"]
+k_level: "K2"
 keywords: ["test automation"]
-tempo_estudo_min: 20
-pagina_original: 58
-relacionados: []
-fonte: "ISTQB CTFL v4.0.1"
-tipo: "casca"
+study_time_min: 20
+source_page: 58
+related: []
+source: "ISTQB CTFL v4.0.1"
+type: "shell"
 ---
 
 # 6. Test Tools
 
-> **Casca.** Este arquivo não contém o texto do syllabus. O resumo é nosso (não é texto do ISTQB).
-> Para o conteúdo exato, veja a seção e a página indicadas no PDF oficial ou o arquivo em `syllabus-texto/`.
+> **Shell.** This file does not contain the syllabus text. The summary is ours (not ISTQB text).
+> For the exact content, see the section and page given below in the official PDF, or the file in `syllabus-text/`.
 
-## Resumo (nosso)
+## Summary (ours)
 
-O capítulo mais curto. Classifica as ferramentas que apoiam o teste e lista os benefícios e riscos da automação.
+The shortest chapter. Classifies the tools that support testing and lists the benefits and risks of test automation.
 
-**Tempo de estudo do capítulo (syllabus):** 20 minutos.
+**Chapter study time (syllabus):** 20 minutes.
 
-## Objetivos de aprendizagem
+## Learning objectives
 
-Código e nível K. O enunciado de cada objetivo está no syllabus oficial (ou em `syllabus-texto/_dados/objetivos-completos.json`, se gerado).
+Code and K-level. The wording of each objective is in the official syllabus (or in `syllabus-text/_data/objectives-full.json`, if generated).
 
-- `FL-6.1.1` (K2): seção [6.1](6.1-tool-support-for-testing.md)
-- `FL-6.2.1` (K1): seção [6.2](6.2-benefits-and-risks-of-test-automation.md)
+- `FL-6.1.1` (K2): section [6.1](6.1-tool-support-for-testing.md)
+- `FL-6.2.1` (K1): section [6.2](6.2-benefits-and-risks-of-test-automation.md)
 
-## Seções
+## Sections
 
-- [6.1 Tool Support for Testing](6.1-tool-support-for-testing.md): Categorias de ferramentas que apoiam o teste.
-- [6.2 Benefits and Risks of Test Automation](6.2-benefits-and-risks-of-test-automation.md): Benefícios e riscos da automação de teste.
+- [6.1 Tool Support for Testing](6.1-tool-support-for-testing.md): Categories of tools that support testing.
+- [6.2 Benefits and Risks of Test Automation](6.2-benefits-and-risks-of-test-automation.md): Benefits and risks of test automation.
 
-## Keywords do capítulo
+## Chapter keywords
 
 test automation
 
-## Onde ler no original
+## Where to read the original
 
-- ISTQB® CTFL v4.0.1, seção **6**, página **58** do PDF.
-- PDF oficial: <https://istqb.org/certifications/certified-tester-foundation-level-ctfl-v4-0/>
-- Texto local (se gerado com `scripts/`): `syllabus-texto/06-test-tools/_index.md`
+- ISTQB® CTFL v4.0.1, section **6**, page **58** of the PDF.
+- Official PDF: <https://istqb.org/certifications/certified-tester-foundation-level-ctfl-v4-0/>
+- Local text (if generated with `scripts/`): `syllabus-text/06-test-tools/_index.md`

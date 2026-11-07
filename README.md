@@ -1,73 +1,71 @@
 # istqb-ai-ready
 
-Base de conhecimento de QA construída sobre o **ISTQB® Certified Tester Foundation Level (CTFL)
-Syllabus v4.0.1**, organizada para que IAs (Claude Code e outras) consigam **ler, buscar e citar**
-o syllabus seção por seção. Serve de guia de boas práticas para outros projetos de teste.
+*Leia em português: [README.pt-BR.md](README.pt-BR.md)*
 
-> Projeto independente, sem vínculo com o ISTQB® ou o BSTQB. **Este repositório não contém o texto
-> do syllabus**: contém a estrutura (seções, objetivos, keywords, páginas), resumos nossos e scripts
-> que geram o texto integral na sua máquina a partir do PDF oficial. Veja [AVISO-LEGAL.md](AVISO-LEGAL.md).
+A QA knowledge base built on the **ISTQB® Certified Tester Foundation Level (CTFL) Syllabus v4.0.1**,
+organised so that AI tools (Claude Code and others) can **read, search and cite** the syllabus section by
+section. It serves as a good-practice guide for other testing projects.
 
-## O que tem aqui
+> Independent project, not affiliated with ISTQB® or BSTQB. **This repository does not contain the syllabus
+> text**: it contains the structure (sections, objectives, keywords, pages), our own summaries and scripts
+> that generate the full text on your machine from the official PDF. See [LEGAL-NOTICE.md](LEGAL-NOTICE.md).
+
+## What is here
 
 ```
 istqb-ai-ready/
-├── CLAUDE.md            regras para IAs: como consultar, citar e o que não fazer
-├── llms.txt             índice enxuto de todos os arquivos (padrão llms.txt)
-├── AVISO-LEGAL.md       atribuição ao ISTQB® e condições de uso
-├── syllabus/            CASCA: 1 arquivo por seção (86), com frontmatter + resumo nosso + página do PDF
-├── syllabus-texto/      TEXTO INTEGRAL (mesmos caminhos), gerado localmente, fora do git
-├── dados/
-│   ├── objetivos.json   64 objetivos de aprendizagem (código, nível K, seção, arquivo)
-│   ├── glossario.json   265 termos com seções e páginas, mais o link do glossário oficial
-│   ├── keywords.json    102 keywords, por capítulo
-│   └── resumos.yaml     nossos resumos de cada seção (fonte das cascas)
-├── guias/               aplicação prática, escrita por nós (não é syllabus)
-│   ├── checklist-planejamento.md
-│   ├── tecnicas-caixa-preta.md
-│   └── template-plano-de-teste.md
-├── scripts/             pipeline PDF → markdown
-└── fonte/               coloque aqui o PDF oficial (ignorado pelo git)
+├── CLAUDE.md            rules for AI tools: how to query, cite, and what not to do
+├── llms.txt             compact index of every file (llms.txt format)
+├── LEGAL-NOTICE.md      attribution to ISTQB® and conditions of use
+├── README.md            this file (English) · README.pt-BR.md (Portuguese)
+├── syllabus/            SHELL: 1 file per section (86), with frontmatter + our summary + PDF page
+├── syllabus-text/       FULL TEXT (same paths), generated locally, outside git
+├── data/
+│   ├── objectives.json  64 learning objectives (code, K-level, section, file)
+│   ├── glossary.json    265 terms with sections and pages, plus the official glossary link
+│   ├── keywords.json    102 keywords, by chapter
+│   └── summaries.yaml   our summary of each section (source of the shells)
+├── guides/              practical application, written by us (not the syllabus)
+│   ├── black-box-techniques.md
+│   ├── test-planning-checklist.md
+│   └── test-plan-template.md
+├── scripts/             PDF → markdown pipeline
+└── source/              put the official PDF here (git-ignored)
 ```
 
-Cada seção tem um frontmatter como este:
+Every section has a frontmatter like this:
 
 ```yaml
 ---
-capitulo: 4
-secao: "4.2.1"
-titulo: "Equivalence Partitioning"
-objetivos: ["FL-4.2.1"]
-nivel_k: "K3"
+chapter: 4
+section: "4.2.1"
+title: "Equivalence Partitioning"
+objectives: ["FL-4.2.1"]
+k_level: "K3"
 keywords: ["coverage", "coverage item", "equivalence partitioning", "test technique"]
-tempo_estudo_min: null      # o syllabus só define tempo por capítulo
-pagina_original: 39
-relacionados: ["4.2.2"]
-fonte: "ISTQB CTFL v4.0.1"
-tipo: "casca"
+study_time_min: null      # the syllabus only defines time per chapter
+source_page: 39
+related: ["4.2.2"]
+source: "ISTQB CTFL v4.0.1"
+type: "shell"
 ---
 ```
 
-O texto do syllabus fica em inglês, que é o idioma do PDF usado. Resumos, guias e regras estão em português.
+## How it was generated
 
-## Como foi gerado
-
-| Script | Faz |
+| Script | What it does |
 |---|---|
-| `scripts/converter.py` | PDF → `build/bruto.md` com pymupdf4llm. Recorta cabeçalho e rodapé de cada página, normaliza os títulos pelo sumário, corrige hifenização e marca a página de origem (`<!-- pagina: N -->`). |
-| `scripts/extrair_metadados.py` | Objetivos (listas dos capítulos), keywords e termos do índice → `dados/*.json`. |
-| `scripts/dividir.py` | Um arquivo por seção em `syllabus/` (casca) e `syllabus-texto/` (texto local), mais `_index.md` por capítulo e `llms.txt`. |
-| `scripts/validar.py` | Confere seções × sumário, objetivos × PDF × Apêndice B, palavras (diferença em %), frontmatter, links, ausência de texto do syllabus na casca e `.gitignore`. |
+| `scripts/convert.py` | PDF → `build/raw.md` with pymupdf4llm. Crops each page's header and footer, normalises headings from the table of contents, fixes hyphenation and marks the source page (`<!-- page: N -->`). |
+| `scripts/extract_metadata.py` | Objectives (chapter lists), keywords and index terms → `data/*.json`. |
+| `scripts/split.py` | One file per section in `syllabus/` (shell) and `syllabus-text/` (local text), plus one `_index.md` per chapter and `llms.txt`. |
+| `scripts/validate.py` | Checks sections × table of contents, objectives × PDF × Appendix B, word count (difference in %), frontmatter, links, absence of syllabus text in the shell, and `.gitignore`. |
 
-Última validação (PDF v4.0.1): 97/97 entradas do sumário, 64/64 objetivos (níveis K conferem com o
-Apêndice B), palavras −0,01%, 175 frontmatters válidos, 0 trechos do syllabus na casca, links ok.
+## How to regenerate from the PDF
 
-## Como regenerar a partir do PDF
+Requirements: Python 3.10+.
 
-Requisitos: Python 3.10+.
-
-1. Baixe o PDF oficial do CTFL v4.0.1 em <https://istqb.org/certifications/certified-tester-foundation-level-ctfl-v4-0/> e salve em `fonte/`.
-2. Crie o ambiente e rode o pipeline:
+1. Download the official CTFL v4.0.1 PDF from <https://istqb.org/certifications/certified-tester-foundation-level-ctfl-v4-0/> and save it in `source/`.
+2. Create the environment and run the pipeline:
 
 ```bash
 python -m venv .venv
@@ -78,48 +76,47 @@ python -m venv .venv
 ```
 
 ```bash
-.venv/Scripts/python scripts/converter.py && .venv/Scripts/python scripts/extrair_metadados.py && .venv/Scripts/python scripts/dividir.py && .venv/Scripts/python scripts/validar.py
+.venv/Scripts/python scripts/convert.py && .venv/Scripts/python scripts/extract_metadata.py && .venv/Scripts/python scripts/split.py && .venv/Scripts/python scripts/validate.py
 ```
 
-Isso cria `syllabus-texto/`, que fica só na sua máquina. Use para busca offline e para a IA ler o
-texto oficial. **Não commite nem redistribua essa pasta.**
+This creates `syllabus-text/`, which stays on your machine only. Use it for offline search and so the AI can
+read the official text. **Do not commit or redistribute that folder.**
 
-Para mudar um resumo, edite `dados/resumos.yaml` e rode de novo `scripts/dividir.py`. Não edite
-`syllabus/` à mão.
+To change a summary, edit `data/summaries.yaml` and run `scripts/split.py` again. Do not edit `syllabus/` by hand.
 
-## Como usar com Claude Code em outro projeto
+## How to use it with Claude Code in another project
 
-### 1. Adicionar como submodule
+### 1. Add it as a submodule
 
-No projeto de testes:
+In the testing project:
 
 ```bash
 git submodule add https://github.com/DEVJS2005/istqb-ai-ready.git docs/istqb-ai-ready
 ```
 
-Quem clonar o projeto depois deve usar `git clone --recurse-submodules`, ou rodar
-`git submodule update --init` depois do clone. Para atualizar a base: `git submodule update --remote docs/istqb-ai-ready`.
+Anyone cloning the project later should use `git clone --recurse-submodules`, or run
+`git submodule update --init` after cloning. To update the base: `git submodule update --remote docs/istqb-ai-ready`.
 
-### 2. Apontar o CLAUDE.md do projeto para a base
+### 2. Point the project's CLAUDE.md at the base
 
-Adicione ao `CLAUDE.md` do projeto (o Claude Code entende `@caminho` como importação de arquivo):
+Add to the project's `CLAUDE.md` (Claude Code treats `@path` as a file import):
 
 ```markdown
-## Base de boas práticas de QA (ISTQB CTFL)
+## QA good-practice base (ISTQB CTFL)
 @docs/istqb-ai-ready/CLAUDE.md
 
-- Ao planejar, projetar ou revisar testes, consulte primeiro `docs/istqb-ai-ready/llms.txt`.
-- Cite a seção do syllabus usada (ex.: "conforme syllabus 4.2.1").
+- When planning, designing or reviewing tests, check `docs/istqb-ai-ready/llms.txt` first.
+- Cite the syllabus section used (e.g. "per syllabus 4.2.1").
 ```
 
-### 3. (Opcional) Gerar o texto integral dentro do submodule
+### 3. (Optional) Generate the full text inside the submodule
 
-Repita os passos de "Como regenerar" dentro de `docs/istqb-ai-ready/`. Sem isso, a IA trabalha
-com as cascas e indica a página do PDF quando precisar do texto exato.
+Repeat the "How to regenerate" steps inside `docs/istqb-ai-ready/`. Without it, the AI works from the shells
+and points to the PDF page when it needs the exact wording.
 
 ### 4. CI (GitHub Actions)
 
-Se o workflow do projeto precisar da base, faça o checkout com submodules:
+If a project workflow needs the base, check out with submodules:
 
 ```yaml
 - uses: actions/checkout@v4
@@ -127,15 +124,12 @@ Se o workflow do projeto precisar da base, faça o checkout com submodules:
     submodules: true
 ```
 
-Enquanto este repositório for privado, o checkout do submodule no CI precisa de um token com
-acesso a ele (`token:` no `actions/checkout`).
+## Attribution
 
-## Atribuição
+Content derived from the **ISTQB® Certified Tester Foundation Level Syllabus v4.0.1**, © International Software
+Testing Qualifications Board (ISTQB®). ISTQB® is a registered trademark of the International Software Testing
+Qualifications Board. The authors and ISTQB® are the source and copyright owners of the syllabus. Official page:
+<https://istqb.org/certifications/certified-tester-foundation-level-ctfl-v4-0/>. In Brazil: BSTQB,
+<https://bstqb.org.br>. Details and conditions of use in [LEGAL-NOTICE.md](LEGAL-NOTICE.md).
 
-Conteúdo derivado do **ISTQB® Certified Tester Foundation Level Syllabus v4.0.1**, © International
-Software Testing Qualifications Board (ISTQB®). ISTQB® é marca registrada do International Software
-Testing Qualifications Board. Os autores e o ISTQB® são a fonte e os titulares do copyright do
-syllabus. Página oficial: <https://istqb.org/certifications/certified-tester-foundation-level-ctfl-v4-0/>.
-No Brasil: BSTQB, <https://bstqb.org.br>. Detalhes e condições de uso em [AVISO-LEGAL.md](AVISO-LEGAL.md).
-
-Os scripts, resumos e guias deste repositório são de autoria dos mantenedores. Uso não comercial.
+The scripts, summaries and guides in this repository are authored by its maintainers. Non-commercial use.

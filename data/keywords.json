@@ -1,8 +1,8 @@
 {
-  "fonte": "ISTQB Certified Tester Foundation Level Syllabus v4.0.1",
-  "link_oficial": "https://istqb.org/certifications/certified-tester-foundation-level-ctfl-v4-0/",
-  "aviso": "Metadados de referência. O texto do syllabus não é reproduzido; consulte o PDF oficial.",
-  "por_capitulo": {
+  "source": "ISTQB Certified Tester Foundation Level Syllabus v4.0.1",
+  "official_link": "https://istqb.org/certifications/certified-tester-foundation-level-ctfl-v4-0/",
+  "notice": "Reference metadata. The syllabus text is not reproduced; see the official PDF.",
+  "by_chapter": {
     "1": {
       "total": 30,
       "keywords": [
